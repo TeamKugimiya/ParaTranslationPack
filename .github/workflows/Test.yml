@@ -1,0 +1,16 @@
+name: Test Para
+
+on:
+  push:
+    branches:
+      - main
+      - ci/paratest
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/ParaTranz-Test.yml@ci/para
+    with:
+      paratranz_project_id: 9900
+    secrets:
+      paratranz_token: ${{ secrets.PARATRANZ_TOKEN }}
