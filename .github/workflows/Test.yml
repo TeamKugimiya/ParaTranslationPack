@@ -12,5 +12,8 @@ jobs:
     uses: TeamKugimiya/reusable-workflows/.github/workflows/ParaTranz-Test.yml@ci/para
     with:
       paratranz_project_id: 9900
+      modrinth_publish: true
+      modrinth_id: 7DO0XWSK
     secrets:
       paratranz_token: ${{ secrets.PARATRANZ_TOKEN }}
+      modrinth_token: ${{ secrets.PARATRANZ_TOKEN }}
