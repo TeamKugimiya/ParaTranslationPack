@@ -1,0 +1,57 @@
+# 版本支援區
+
+# 1.18
+[[versions]]
+## 遊戲版本
+mc_version = "1.18.x"
+## 資源包格式版本
+mc_pack_format = 8
+## 支援版本
+mc_supported_formats_min = 8
+mc_supported_formats_max = 8
+## Modrinth 支援範圍
+modrinth_version = ">= 1.18 < 1.19"
+## 路徑位置
+directory_path = "1.18"
+
+# 1.19
+[[versions]]
+## 遊戲版本
+mc_version = "1.19.x"
+## 資源包格式版本
+mc_pack_format = 9
+## 支援版本
+mc_supported_formats_min = 9
+mc_supported_formats_max = 13
+## Modrinth 支援範圍
+modrinth_version = ">=1.19 <1.20"
+## 路徑位置
+directory_path = "1.19"
+
+# 1.20
+[[versions]]
+## 遊戲版本
+mc_version = "1.20.x"
+## 資源包格式版本
+mc_pack_format = 15
+## 支援版本
+mc_supported_formats_min = 15
+mc_supported_formats_max = 32
+## Modrinth 支援範圍
+modrinth_version = ">=1.20 <1.21"
+## 路徑位置
+directory_path = "1.20"
+
+# 1.21
+[[versions]]
+## 遊戲版本
+mc_version = "1.21.x"
+## 資源包格式版本
+mc_pack_format = 34
+## 支援版本
+mc_supported_formats_min = 34
+mc_supported_formats_max = 35
+## Modrinth 支援範圍
+modrinth_version = ">=1.21"
+## 路徑位置
+directory_path = "main"
