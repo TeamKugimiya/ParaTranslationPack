@@ -1,15 +1,14 @@
-name: Test Para
+name: Para Release
 
 on:
   workflow_dispatch: {}
-  push:
-    branches:
-      - main
-      - ci/paratest
+  schedule:
+    - cron: "5 16 * * *"
 
 jobs:
-  test:
-    uses: TeamKugimiya/reusable-workflows/.github/workflows/ParaTranz-Test.yml@ci/para
+  para_release:
+    name: Para build
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/ParaTranz.yml@main
     with:
       paratranz_project_id: 9900
       modrinth_publish: true
