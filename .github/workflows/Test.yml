@@ -1,0 +1,18 @@
+name: Para Release
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "5 16 * * *"
+
+jobs:
+  para_release:
+    name: Para build
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/ParaTranz.yml@main
+    with:
+      paratranz_project_id: 9900
+      modrinth_publish: true
+      modrinth_id: 7DO0XWSK
+    secrets:
+      paratranz_token: ${{ secrets.PARATRANZ_TOKEN }}
+      modrinth_token: ${{ secrets.MODRINTH_TOKEN }}
