@@ -29,7 +29,7 @@ jobs:
           python-version: ${{ env.python_version }}
 
       - name: Setup - Poetry Install
-        uses: 
+        uses: snok/install-poetry@v1
         with:
           version: 1.8.5
           virtualenvs-create: true
