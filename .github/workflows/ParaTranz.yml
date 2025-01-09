@@ -7,7 +7,7 @@ on:
 
 env:
   paratranz_project_id: 9900
-  python_version: "3.12"
+  python_version: "3.13"
   reusable_workflows_ref: main
   LOGURU_LEVEL: "INFO"
 
