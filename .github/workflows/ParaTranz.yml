@@ -265,6 +265,8 @@ jobs:
       ### Checkout Main Repo ###
       - name: Checkout Repository - Main
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       ### Setup script dependencies ###
       - name: Setup - Python
