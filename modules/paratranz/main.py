@@ -39,12 +39,12 @@ class ParaTranz:
             return {"error": str(e)}
 
     ### Files
-    def get_files(self) -> dict:
+    def get_files(self) -> list:
         """
         Get project files information.
 
         Returns:
-        dict: The project files information.
+        list: The project files information.
         """
         url = f"{self._api_url}/projects/{self._project_id}/files"
         try:
@@ -116,4 +116,3 @@ class ParaTranz:
             )
         except Exception as e:
             logger.error(f"Download Failed! Error: {str(e)}")
-
