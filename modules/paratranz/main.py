@@ -32,13 +32,30 @@ class ParaTranz:
         url = f"{self._api_url}/projects/{self._project_id}"
         try:
             response = requests.get(url, headers=self.headers)
+            response.raise_for_status()
             return response.json()
         except requests.RequestException as e:
             logger.error(f"Failed to get project information: {str(e)}")
             return {"error": str(e)}
 
-    ### Artifacts
+    ### Files
+    def get_files(self) -> dict:
+        """
+        Get project files information.
 
+        Returns:
+        dict: The project files information.
+        """
+        url = f"{self._api_url}/projects/{self._project_id}/files"
+        try:
+            response = requests.get(url, headers=self.headers)
+            response.raise_for_status()
+            return response.json()
+        except requests.RequestException as e:
+            logger.error(f"Failed to get files information: {str(e)}")
+            return {"error": str(e)}
+
+    ### Artifacts
     def get_artifacts(self) -> dict:
         """
         Get project artifacts information.
@@ -65,6 +82,7 @@ class ParaTranz:
         url = f"{self._api_url}/projects/{self._project_id}/artifacts"
         try:
             response = requests.post(url, headers=self.headers)
+            response.raise_for_status()
             return response.json()
         except requests.RequestException as e:
             logger.error(f"Failed to trigger artifact build: {str(e)}")
