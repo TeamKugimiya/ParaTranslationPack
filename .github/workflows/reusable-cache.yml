@@ -19,7 +19,7 @@ on:
 env:
   python_version: "3.13"
   poetry_version: "2.1.1"
-  PARATRANZ_API_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+  PARATRANZ_API_TOKEN: ${{ secrets.PARATRANZ_API_TOKEN }}
   LOGURU_LEVEL: "INFO"
 
 jobs:
