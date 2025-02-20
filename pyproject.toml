@@ -20,7 +20,8 @@ packages = [
 ]
 
 [project.scripts]
-cache_generate = "scripts.cache.cache_generate:run"
+para_cache = "scripts.cache.para_cache:run"
+modrinth_verify = "scripts.verify.modrinth_verify:run"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

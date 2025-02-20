@@ -1,31 +1,21 @@
-name: Reusable | Para Cache
+name: Reusable | Modrinth Verify
 
 on: 
   workflow_call:
-    inputs:
-      cache_key:
-        type: string
-        required: true
-        description: "The name of the cache key."
     outputs:
-      cache-hit:
-        description: "Cache hit status"
-        value: ${{ jobs.cache.outputs.cache-hit }}
-    secrets:
-      PARATRANZ_API_TOKEN:
-        required: true
-        description: "Paratranz API Token"
+      is-same-date:
+        description: "Check the date is exists on modrinth"
+        value: ${{ jobs.modrinth_verify.outputs.is_same_date }}
 
 env:
   python_version: "3.13"
   poetry_version: "2.1.1"
-  PARATRANZ_API_TOKEN: ${{ secrets.PARATRANZ_API_TOKEN }}
   LOGURU_LEVEL: "INFO"
 
 jobs:
-  cache:
+  modrinth_verify:
     outputs:
-      cache-hit: ${{ steps.para_cache.outputs.cache-hit }}
+      is_same_date: ${{ steps.modrinth_verify.outputs.is_same_date }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -59,19 +49,7 @@ jobs:
           poetry config virtualenvs.in-project true --local
           poetry install --no-interaction
 
-      - name: Restore Cache
-        uses: actions/cache/restore@v4.2.0
-        with:
-          path: .cache/paratranz_id_cache.txt
-          key: ${{ inputs.cache_key }}-
-
-      - name: Run Cache Script
+      - name: Run Modrinth Verify Script
+        id: modrinth_verify
         run: |
-          poetry run para_cache
-
-      - name: Save Cache
-        id: para_cache
-        uses: actions/cache@v4.2.0
-        with:
-          path: .cache/paratranz_id_cache.txt
-          key: ${{ inputs.cache_key }}-${{ hashFiles('.cache/paratranz_id_cache.txt') }}
+          poetry run modrinth_verify
