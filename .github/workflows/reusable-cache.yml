@@ -71,7 +71,7 @@ jobs:
 
       - name: Save Cache
         id: para_cache
-        uses: actions/cache/save@v4.2.0
+        uses: actions/cache@v4.2.0
         with:
           path: .cache/paratranz_id_cache.txt
           key: ${{ inputs.cache_key }}-${{ hashFiles('.cache/paratranz_id_cache.txt') }}

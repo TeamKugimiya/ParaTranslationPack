@@ -3,7 +3,7 @@ name: CI | Beta Release
 on: [ push ]
 
 jobs:
-  cache:
+  para_cache:
     uses: ./.github/workflows/reusable-cache.yml
     with:
       cache_key: beta-cache
