@@ -4,11 +4,11 @@ on: [ push ]
 
 jobs:
   modrinth_verify:
-    name: Modrinth Verify
+    name: Step 0 | Modrinth
     uses: ./.github/workflows/reusable-modrinth_verify.yml
 
   para_cache:
-    name: Para Cache
+    name: Step 0 | Cache
     uses: ./.github/workflows/reusable-cache.yml
     with:
       cache_key: beta-cache
