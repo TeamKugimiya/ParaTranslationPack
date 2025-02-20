@@ -1,18 +1,27 @@
-[tool.poetry]
+[project]
 name = "paratranslationpack"
-version = "0.1.0"
+version = "1.0"
 description = ""
-authors = ["Miku <26039249+xMikux@users.noreply.github.com>"]
+authors = [
+    {name = "Miku", email = "26039249+xMikux@users.noreply.github.com"}
+]
 readme = "README.md"
-package-mode = false
+requires-python = ">=3.13 <4.0"
+dependencies = [
+    "paratranz-py @ git+https://github.com/TeamKugimiya/paratranz-py.git",
+    "loguru (>=0.7.3,<0.8.0)",
+    "flake8 (>=7.1.2,<8.0.0)",
+    "pytz (>=2025.1,<2026.0)"
+]
 
-[tool.poetry.dependencies]
-python = "^3.13"
-requests = "2.32.3"
-loguru = "0.7.3"
-pytz = "2024.2"
-pooch = "1.8.2"
+[tool.poetry]
+packages = [
+    { include = "scripts" }
+]
+
+[project.scripts]
+cache_generate = "scripts.cache.cache_generate:run"
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"

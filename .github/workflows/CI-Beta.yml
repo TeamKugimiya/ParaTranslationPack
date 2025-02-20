@@ -6,7 +6,7 @@ jobs:
   cache:
     uses: ./.github/workflows/reusable-cache.yml
     with:
-      cache_name: beta-cache
+      cache_key: beta-cache
     secrets:
       PARATRANZ_API_TOKEN: ${{ secrets.PARATRANZ_API_TOKEN }}
 

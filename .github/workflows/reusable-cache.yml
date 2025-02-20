@@ -3,10 +3,10 @@ name: Reusable | Cache
 on: 
   workflow_call:
     inputs:
-      cache_name:
+      cache_key:
         type: string
         required: true
-        description: "The name of the cache."
+        description: "The name of the cache key."
     outputs:
       cache-hit:
         description: "Cache hit status"
@@ -60,13 +60,19 @@ jobs:
           poetry config virtualenvs.in-project true --local
           poetry install --no-interaction
 
-      - name: Run Cache Script
-        run: |
-          poetry run python main.py
-
-      - name: Cache Paratranz
-        id: para_cache
-        uses: actions/cache@v4.2.0
+      - name: Restore Cache
+        uses: actions/cache/restore@v4.2.0
         with:
           path: .cache/paratranz_id_cache.txt
-          key: ${{ inputs.cache_name }}-${{ hashFiles('.cache/paratranz_id_cache.txt') }}
+          key: ${{ inputs.cache_key }}-
+
+      - name: Run Cache Script
+        run: |
+          poetry run cache_generate
+
+      - name: Save Cache
+        id: para_cache
+        uses: actions/cache/save@v4.2.0
+        with:
+          path: .cache/paratranz_id_cache.txt
+          key: ${{ inputs.cache_key }}-${{ hashFiles('.cache/paratranz_id_cache.txt') }}
