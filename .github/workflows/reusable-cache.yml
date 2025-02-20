@@ -24,6 +24,7 @@ env:
 
 jobs:
   cache:
+    name: Para Cache
     outputs:
       cache-hit: ${{ steps.para_cache.outputs.cache-hit }}
     runs-on: ubuntu-latest

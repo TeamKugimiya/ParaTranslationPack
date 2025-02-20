@@ -14,6 +14,7 @@ env:
 
 jobs:
   modrinth_verify:
+    name: Modrinth Verify
     outputs:
       is_same_date: ${{ steps.modrinth_verify.outputs.is_same_date }}
     runs-on: ubuntu-latest
