@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [ para_cache, modrinth_verify ]
     # if: ${{ needs.para_cache.outputs.cache-hit != 'true' && needs.modrinth_verify.outputs.is-same-date != 'true' }}
-    if: ${{ needs.modrinth_verify.outputs.is-same-date == 'true' }}
+    if: ${{ needs.modrinth_verify.outputs.is-same-date != 'true' }}
     steps:
       - uses: actions/checkout@v4
       - name: Hello world
