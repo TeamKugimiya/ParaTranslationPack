@@ -68,7 +68,7 @@ jobs:
 
       - name: Run Cache Script
         run: |
-          poetry run para_cache
+          poetry run para_cache_id
 
       - name: Save Cache
         id: para_cache
