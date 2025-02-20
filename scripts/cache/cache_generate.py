@@ -44,7 +44,7 @@ def paratranz_write_cache(
 def run():
     cache_folder = ".cache"
     cache_file = "paratranz_id_cache.txt"
-    project_id = os.getenv("PARATRANZ_PROJECT_ID")
+    project_id = 9900
     api_token = os.getenv("PARATRANZ_API_TOKEN")
     para = ParaTranz(
         api_token=api_token
