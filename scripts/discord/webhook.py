@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 from loguru import logger
 from paratranz_py import ParaTranz
-from scripts.utils import calculate_percentage, convert_epoch, current_date, current_dtime, current_r2 # noqa
+from scripts.utils import calculate_percentage, current_date, current_dtime, current_r2 # noqa
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
 para = ParaTranz(os.getenv("PARATRANZ_TOKEN"))

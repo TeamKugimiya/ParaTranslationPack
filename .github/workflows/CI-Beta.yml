@@ -54,5 +54,6 @@ jobs:
     needs: [ para_r2 ]
     uses: ./.github/workflows/reusable-dcwebhook.yml
     secrets:
+      PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
       DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
       DISCORD_WEBHOOK_ID: ${{ secrets.DISCORD_WEBHOOK_ID }}

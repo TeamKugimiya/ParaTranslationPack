@@ -1,14 +1,17 @@
 name: Reusable | Discord Webhook
 
 on: 
-    workflow_call:
-      secrets:
-        DISCORD_WEBHOOK_URL:
-          description: "Discord Webhook URL"
-          required: true
-        DISCORD_WEBHOOK_ID:
-          description: "Discord Webhook ID"
-          required: true
+  workflow_call:
+    secrets:
+      PARATRANZ_TOKEN:
+        description: "ParaTranz API Token"
+        required: true
+      DISCORD_WEBHOOK_URL:
+        description: "Discord Webhook URL"
+        required: true
+      DISCORD_WEBHOOK_ID:
+        description: "Discord Webhook ID"
+        required: true
 
 env:
   python_version: "3.13"
@@ -54,3 +57,7 @@ jobs:
       - name: Run Discord Webhook
         run: |
           poetry run webhook_update
+        env:
+          PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+          DC_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DC_WEBHOOK_ID: ${{ secrets.DISCORD_WEBHOOK_ID }}
