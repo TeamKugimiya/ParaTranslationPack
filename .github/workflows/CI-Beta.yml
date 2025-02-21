@@ -42,5 +42,6 @@ jobs:
     uses: ./.github/workflows/reusable-r2.yml
     secrets:
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_BUCKET_NAME: ${{ secrets.CLOUDFLARE_R2_BUCKET }}
       CLOUDFLARE_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }} 
       CLOUDFLARE_SECRET_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
