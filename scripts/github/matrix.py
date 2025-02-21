@@ -26,7 +26,7 @@ def matrix_generate(version_data: dict) -> dict:
 def run():
     config_data = load_tomldata(CONFIG_PATH)
     matrix_json = matrix_generate(config_data)
-    github_write_step_output("matrix_json", matrix_json)
+    github_write_step_output("matrix_data", matrix_json)
 
 
 if __name__ == "__main__":

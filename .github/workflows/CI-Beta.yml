@@ -15,11 +15,24 @@ jobs:
     secrets:
       PARATRANZ_API_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
 
+  github_matrix:
+    name: Step 1 | GitHub Matrix
+    needs: [ modrinth_verify, para_cache ]
+    if: ${{ needs.modrinth_verify.outputs.is-same-date != 'true' }}
+    # if: ${{ needs.para_cache.outputs.cache-hit != 'true' && needs.modrinth_verify.outputs.is-same-date != 'true' }}
+    uses: ./.github/workflows/reusable-github_matrix.yml
+
   para_paraify:
-    runs-on: ubuntu-latest
-    needs: [ para_cache, modrinth_verify ]
-    if: ${{ needs.para_cache.outputs.cache-hit != 'true' && needs.modrinth_verify.outputs.is-same-date != 'true' }}
-    steps:
-      - uses: actions/checkout@v4
-      - name: Hello world
-        run: echo "Hello world and cache status is ${{ needs.para_cache.outputs.cache-hit }}"
+    name: Step 2 | Paraify Build
+    needs: [ github_matrix ]
+    strategy:
+      matrix: ${{ fromJson(needs.github_matrix.outputs.matrix-data) }}
+    uses: ./.github/workflows/reusable-build.yml
+    with:
+      mc_version: ${{ matrix.mc_version }}
+      pack_format: ${{ matrix.mc_pack_format }}
+      pack_supported_format_min: ${{ matrix.mc_supported_formats_min }}
+      pack_supported_format_max: ${{ matrix.mc_supported_formats_max }}
+    secrets:
+      PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+

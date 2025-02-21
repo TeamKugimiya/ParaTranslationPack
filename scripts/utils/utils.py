@@ -1,6 +1,7 @@
 import json
-import tomllib
 import pytz
+import tomllib
+import shutil
 from pathlib import Path
 from loguru import logger
 from datetime import datetime
@@ -127,6 +128,26 @@ def copy_file(src: str, dest: str) -> bool:
         logger.error(f"File not found: {e}")
     except Exception as e:
         logger.error(f"Error copying file: {e}")
+    return False
+
+
+def remove_dir(path: str) -> bool:
+    """
+    Remove directory.
+
+    Args:
+        path (str): Path to the directory.
+
+    Returns:
+        bool: True if the directory is removed successfully, False otherwise.
+    """
+    try:
+        shutil.rmtree(path)
+        return True
+    except FileNotFoundError as e:
+        logger.error(f"Directory not found: {e}")
+    except Exception as e:
+        logger.error(f"Error removing directory: {e}")
     return False
 
 

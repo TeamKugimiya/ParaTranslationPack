@@ -1,10 +1,9 @@
 import os
 import json
-import shutil
 from pathlib import Path
 from loguru import logger
 from paratranz_py import ParaTranz
-from scripts.utils import validate_json_schema, load_jsondata, convert_epoch, current_date, copy_file # noqa
+from scripts.utils import validate_json_schema, load_jsondata, convert_epoch, current_date, copy_file, remove_dir # noqa
 
 
 PATH_WORKDIR = Path("workdir")
@@ -129,7 +128,7 @@ def copy_files():
     """
     Copy nessessory files
     """
-    icon_path = Path("assets/pack.png") 
+    icon_path = Path("assets/pack.png")
     license_path = Path("assets/LICENSE")
     copy_file(icon_path, PATH_WORKDIR.joinpath("pack.png"))
     copy_file(license_path, PATH_WORKDIR.joinpath("LICENSE"))
@@ -139,7 +138,7 @@ def chore():
     """
     Cleanup folder
     """
-    shutil.rmtree(PATH_ARTIFACT)
+    remove_dir(PATH_ARTIFACT)
 
 
 def run():
@@ -150,7 +149,7 @@ def run():
     )
 
     pack_format = os.getenv("MC_PACK_FORMAT", "34")
-    mc_supported_format_min = os.getenv("MC_SUPPORTED_FORMATS_MIN", "34")
+    mc_supported_format_min = os.getenv("MC_SUPPORTED_FORMAT_MIN", "34")
     mc_supported_format_max = os.getenv("MC_SUPPORTED_FORMAT_MAX", "35")
 
     download_artifact(paratranz, para_project_id)

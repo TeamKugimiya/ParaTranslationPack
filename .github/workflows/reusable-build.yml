@@ -1,0 +1,87 @@
+name: Reusable | Para Build
+
+on: 
+  workflow_call:
+    inputs:
+      mc_version:
+        description: "Build Minecraft version"
+        required: true
+        type: string
+      pack_format:
+        description: "The pack format version"
+        type: number
+        required: true
+      pack_supported_format_min:
+        description: "The minimum supported pack format version"
+        type: number
+        required: true
+        default: "1.0.0"
+      pack_supported_format_max:
+        description: "The maximum supported pack format version"
+        type: number
+        required: true
+    secrets:
+      PARATRANZ_TOKEN:
+        description: "ParaTranz API Token"
+        required: true
+
+env:
+  python_version: "3.13"
+  poetry_version: "2.1.1"
+  LOGURU_LEVEL: "INFO"
+  PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+  MC_PACK_FORMAT: ${{ inputs.pack_format }}
+  MC_SUPPORTED_FORMAT_MIN: ${{ inputs.pack_supported_format_min }}
+  MC_SUPPORTED_FORMAT_MAX: ${{ inputs.pack_supported_format_max }}
+
+jobs:
+  para_build:
+    name: Para Build | ${{ inputs.mc_version }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4.2.2
+
+      - name: Setup Python
+        uses: actions/setup-python@v5.4.0
+        with:
+          python-version: ${{ env.python_version }}
+
+      - name: Setup Poetry
+        uses: snok/install-poetry@v1.4.1
+        with:
+          version: ${{ env.poetry_version }}
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+          virtualenvs-path: .venv
+          installer-parallel: true
+
+      - name: Cache Poetry Dependencies
+        id: poetry_dependencies_cache
+        uses: actions/cache@v4.2.0
+        with:
+          path: ./.venv
+          key: venv-${{ hashFiles('poetry.lock') }}
+
+      - name: Poetry install dependencies
+        if: ${{ steps.poetry_dependencies_cache.outputs.cache-hit != 'true' }}
+        run: |
+          poetry config virtualenvs.create true --local
+          poetry config virtualenvs.in-project true --local
+          poetry install --no-interaction
+
+      - name: Build Para ResourcePack
+        id: gh_matrix
+        run: |
+          poetry run para_build
+
+      - name: PackUp PackSquash
+        uses: ComunidadAylas/PackSquash-action@v4.0.3
+        with:
+          packsquash_version: latest-unstable
+          artifact_name: ParaTranslationPack-${{ inputs.mc_version }}
+          options: |
+            pack_directory = 'workdir'
+            zip_spec_conformance_level = balanced
+            ['LICENSE']
+            force_include = true

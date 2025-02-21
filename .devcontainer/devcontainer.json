@@ -28,7 +28,8 @@
         "GitHub.vscode-github-actions",
         "ms-python.python",
         "ms-python.flake8",
-        "github.vscode-github-actions"
+        "github.vscode-github-actions",
+        "tamasfe.even-better-toml"
       ]
     }
   }
