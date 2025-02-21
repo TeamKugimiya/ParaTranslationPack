@@ -119,10 +119,8 @@ def copy_file(src: str, dest: str) -> bool:
     Returns:
         bool: True if the file is copied successfully, False otherwise.
     """
-    src = Path(src)
-    dest = Path(dest)
     try:
-        dest.write_bytes(src.read_bytes())
+        shutil.copy2(src, dest)
         return True
     except FileNotFoundError as e:
         logger.error(f"File not found: {e}")

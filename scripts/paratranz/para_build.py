@@ -91,7 +91,7 @@ def format_resourcepack():
                 continue
             assets_mod_id = PATH_ASSETS.joinpath(f"{mod_id}/lang/zh_tw.json")
             assets_mod_id.parents[0].mkdir(parents=True)
-            file_path.rename(assets_mod_id)
+            copy_file(file_path, assets_mod_id)
             logger.success("Moved to assets: " + mod_id)
         else:
             logger.error(f"Invalid lang data: {mod_id}")
