@@ -15,7 +15,6 @@ on:
         description: "The minimum supported pack format version"
         type: number
         required: true
-        default: "1.0.0"
       pack_supported_format_max:
         description: "The maximum supported pack format version"
         type: number

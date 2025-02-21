@@ -148,9 +148,9 @@ def run():
         para_token
     )
 
-    pack_format = os.getenv("MC_PACK_FORMAT", "34")
-    mc_supported_format_min = os.getenv("MC_SUPPORTED_FORMAT_MIN", "34")
-    mc_supported_format_max = os.getenv("MC_SUPPORTED_FORMAT_MAX", "35")
+    pack_format = os.getenv("MC_PACK_FORMAT")
+    mc_supported_format_min = os.getenv("MC_SUPPORTED_FORMAT_MIN")
+    mc_supported_format_max = os.getenv("MC_SUPPORTED_FORMAT_MAX")
 
     download_artifact(paratranz, para_project_id)
     modify_file_date(paratranz, para_project_id)
