@@ -23,6 +23,8 @@ packages = [
 [project.scripts]
 para_cache_id = "scripts.paratranz.para_cache_id:run"
 modrinth_verify_publish = "scripts.modrinth.modrinth_verify_publish:run"
+para_build = "scripts.paratranz.para_build:run"
+github_matrix = "scripts.github.matrix:run"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
