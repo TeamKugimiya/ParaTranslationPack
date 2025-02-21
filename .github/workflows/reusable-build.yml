@@ -83,6 +83,6 @@ jobs:
           artifact_name: ParaTranslationPack-${{ inputs.mc_version }}
           options: |
             pack_directory = 'workdir'
-            zip_spec_conformance_level = 'balanced'
+            zip_spec_conformance_level = 'high'
             ['LICENSE']
             force_include = true
