@@ -160,17 +160,6 @@ def current_date() -> str:
     return datetime.now(tz).strftime("%Y/%m/%d")
 
 
-def current_time() -> str:
-    """Get current time.
-
-    Returns:
-        str:
-            Current time.
-    """
-    tz = pytz.timezone("Asia/Taipei")
-    return datetime.now(tz).strftime("%H:%M:%S")
-
-
 def current_dtime() -> str:
     """Get current date and time.
 
@@ -180,3 +169,14 @@ def current_dtime() -> str:
     """
     tz = pytz.timezone("Asia/Taipei")
     return datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S")
+
+
+def current_r2() -> str:
+    """Get current r2 date time.
+
+    Returns:
+        str:
+            Current r2 date time.
+    """
+    tz = pytz.timezone("Asia/Taipei")
+    return datetime.now(tz).strftime("%Y-%m-%d-%H")

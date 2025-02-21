@@ -15,6 +15,12 @@ on:
       CLOUDFLARE_SECRET_KEY:
         description: "Cloudflare Secret Key"
         required: true
+      DISCORD_WEBHOOK_URL:
+        description: "Discord Webhook URL"
+        required: true
+      DISCORD_WEBHOOK_ID:
+        description: "Discord Webhook ID"
+        required: true
 
 jobs:
   para_r2:

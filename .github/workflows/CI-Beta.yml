@@ -1,6 +1,9 @@
 name: CI | Beta Release
 
-on: [ push ]
+on:
+  schedule:
+    - cron: '6 * * * *'
+  push: {}
 
 jobs:
   modrinth_verify:
@@ -45,3 +48,11 @@ jobs:
       CLOUDFLARE_BUCKET_NAME: ${{ secrets.CLOUDFLARE_R2_BUCKET }}
       CLOUDFLARE_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }} 
       CLOUDFLARE_SECRET_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
+
+  para_discord:
+    name: Step 4 | Discord Notification
+    needs: [ para_r2 ]
+    uses: ./.github/workflows/reusable-dcwebhook.yml
+    secrets:
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      DISCORD_WEBHOOK_ID: ${{ secrets.DISCORD_WEBHOOK_ID }}
