@@ -17,6 +17,9 @@ env:
   python_version: "3.13"
   poetry_version: "2.1.1"
   LOGURU_LEVEL: "INFO"
+  PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+  DC_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+  DC_WEBHOOK_ID: ${{ secrets.DISCORD_WEBHOOK_ID }}
 
 jobs:
   discordwebhook:
@@ -57,7 +60,3 @@ jobs:
       - name: Run Discord Webhook
         run: |
           poetry run webhook_update
-        env:
-          PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
-          DC_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          DC_WEBHOOK_ID: ${{ secrets.DISCORD_WEBHOOK_ID }}
