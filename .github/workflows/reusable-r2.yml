@@ -1,0 +1,33 @@
+name: Reusable | R2
+
+on: 
+  workflow_call:
+    secrets:
+      CLOUDFLARE_ACCOUNT_ID:
+        description: "Cloudflare Account ID"
+        required: true
+      CLOUDFLARE_ACCESS_KEY:
+        description: "Cloudflare Access Key"
+        required: true
+      CLOUDFLARE_SECRET_KEY:
+        description: "Cloudflare Secret Key"
+        required: true
+
+jobs:
+  para_r2:
+    name: R2
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup s3cmd
+        uses: s3-actions/s3cmd@v1.9.0
+        with:
+          provider: cloudflare
+          account_id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          access_key: ${{ secrets.CLOUDFLARE_ACCESS_KEY }}
+          secret_key: ${{ secrets.CLOUDFLARE_SECRET_KEY }}
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v4.1.8
+
+      - name: Display structure of downloaded files
+        run: ls -R
