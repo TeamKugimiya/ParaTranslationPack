@@ -3,19 +3,33 @@
   "image": "mcr.microsoft.com/devcontainers/base:jammy",
   "features": {
     "ghcr.io/devcontainers/features/python:1": {
-      "version": "3.12"
+      "version": "3.13"
     },
     "ghcr.io/devcontainers-extra/features/poetry:2": {
-      "version": "2.0.1"
-    }
+      "version": "2.1.1"
+    },
+		"ghcr.io/itsmechlark/features/act:1": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
+			"version": "latest",
+			"enableNonRootDocker": "true",
+			"moby": "true"
+		}
   },
+	"remoteEnv": {
+		"LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
+	},
   "customizations": {
     "vscode": {
       "extensions": [
         "GitHub.copilot",
         "eamodio.gitlens",
         "GitHub.vscode-github-actions",
-        "ms-python.python"
+        "ms-python.python",
+        "ms-python.flake8",
+        "github.vscode-github-actions",
+        "tamasfe.even-better-toml"
       ]
     }
   }

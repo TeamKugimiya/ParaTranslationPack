@@ -1,0 +1,56 @@
+name: Reusable | Modrinth Verify
+
+on: 
+  workflow_call:
+    outputs:
+      is-same-date:
+        description: "Check the date is exists on modrinth"
+        value: ${{ jobs.modrinth_verify.outputs.is_same_date }}
+
+env:
+  python_version: "3.13"
+  poetry_version: "2.1.1"
+  LOGURU_LEVEL: "INFO"
+
+jobs:
+  modrinth_verify:
+    name: Modrinth Verify
+    outputs:
+      is_same_date: ${{ steps.modrinth_verify.outputs.is_same_date }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4.2.2
+
+      - name: Setup Python
+        uses: actions/setup-python@v5.4.0
+        with:
+          python-version: ${{ env.python_version }}
+
+      - name: Setup Poetry
+        uses: snok/install-poetry@v1.4.1
+        with:
+          version: ${{ env.poetry_version }}
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+          virtualenvs-path: .venv
+          installer-parallel: true
+
+      - name: Cache Poetry Dependencies
+        id: poetry_dependencies_cache
+        uses: actions/cache@v4.2.0
+        with:
+          path: ./.venv
+          key: venv-${{ hashFiles('poetry.lock') }}
+
+      - name: Poetry install dependencies
+        if: ${{ steps.poetry_dependencies_cache.outputs.cache-hit != 'true' }}
+        run: |
+          poetry config virtualenvs.create true --local
+          poetry config virtualenvs.in-project true --local
+          poetry install --no-interaction
+
+      - name: Run Modrinth Verify Script
+        id: modrinth_verify
+        run: |
+          poetry run modrinth_verify_publish
