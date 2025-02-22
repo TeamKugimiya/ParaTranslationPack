@@ -21,13 +21,13 @@ jobs:
   github_matrix:
     name: Step 1 | GitHub Matrix
     needs: [ modrinth_verify, para_cache ]
-    if: ${{ needs.para_cache.outputs.cache-hit != 'true' && needs.modrinth_verify.outputs.is-same-date != 'true' }}
+    # if: ${{ needs.para_cache.outputs.cache-hit != 'true' && needs.modrinth_verify.outputs.is-same-date != 'true' }}
     uses: ./.github/workflows/reusable-github_matrix.yml
 
   para_modrinth_summary:
     name: Step 1 | Modrinth Summary
     needs: [ modrinth_verify, para_cache ]
-    if: ${{ needs.para_cache.outputs.cache-hit != 'true' && needs.modrinth_verify.outputs.is-same-date != 'true' }}
+    # if: ${{ needs.para_cache.outputs.cache-hit != 'true' && needs.modrinth_verify.outputs.is-same-date != 'true' }}
     uses: ./.github/workflows/reusable-modrinth_summary.yml
     secrets:
       PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
