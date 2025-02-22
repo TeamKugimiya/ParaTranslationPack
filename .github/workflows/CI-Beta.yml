@@ -1,15 +1,13 @@
-name: CI | Beta Release
+name: CI | Beta
 
 on:
+  workflow_dispatch: {}
   schedule:
     - cron: '6 * * * *'
+  # Need Remove
   push: {}
 
 jobs:
-  modrinth_verify:
-    name: Step 0 | Modrinth
-    uses: ./.github/workflows/reusable-modrinth_verify.yml
-
   para_cache:
     name: Step 0 | Cache
     uses: ./.github/workflows/reusable-cache.yml
@@ -20,9 +18,8 @@ jobs:
 
   github_matrix:
     name: Step 1 | GitHub Matrix
-    needs: [ modrinth_verify, para_cache ]
-    if: ${{ needs.modrinth_verify.outputs.is-same-date != 'true' }}
-    # if: ${{ needs.para_cache.outputs.cache-hit != 'true' && needs.modrinth_verify.outputs.is-same-date != 'true' }}
+    needs: [ para_cache ]
+    if: ${{ needs.para_cache.outputs.cache-hit != 'true' }}
     uses: ./.github/workflows/reusable-github_matrix.yml
 
   para_paraify:

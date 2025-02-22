@@ -23,6 +23,7 @@ packages = [
 
 [project.scripts]
 para_cache_id = "scripts.paratranz.para_cache_id:run"
+para_summary = "scripts.paratranz.para_summary:run"
 modrinth_verify_publish = "scripts.modrinth.modrinth_verify_publish:run"
 para_build = "scripts.paratranz.para_build:run"
 github_matrix = "scripts.github.matrix:run"
