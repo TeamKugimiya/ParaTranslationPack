@@ -20,7 +20,11 @@ def get_modrinth_latest_publish_date() -> str:
     response = requests.get(url)
     response.raise_for_status()
     data = response.json()
-    return data[0]["date_published"].split("T")[0]
+    tz = pytz.timezone("Asia/Taipei")
+    utc = data[0]["date_published"]
+    utc_datetime = datetime.fromisoformat(utc.replace("Z", "+00:00"))
+    taipei_datetime = utc_datetime.astimezone(tz)
+    return taipei_datetime.date()
 
 
 def get_current_date() -> str:
@@ -34,10 +38,11 @@ def get_current_date() -> str:
     tz = pytz.timezone("Asia/Taipei")
     return datetime.now(tz).date()
 
+
 def run():
     modrinth_latest_release_date = get_modrinth_latest_publish_date()
     current_date = get_current_date()
-    logger.debug("Modrinth: {} | Current: {}", modrinth_latest_release_date, current_date) # noqa
+    logger.info("Modrinth: {} | Current: {}", modrinth_latest_release_date, current_date) # noqa
     is_same_date = modrinth_latest_release_date == current_date
     logger.info(f"Modrinth latest release date is {'same' if is_same_date else 'not same'} as current date!") # noqa
     github_write_step_output("is_same_date", str(is_same_date).lower())

@@ -15,6 +15,7 @@ env:
   python_version: "3.13"
   poetry_version: "2.1.1"
   LOGURU_LEVEL: "INFO"
+  PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
 
 jobs:
   modrinth_summary:
