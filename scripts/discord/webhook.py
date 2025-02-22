@@ -30,8 +30,7 @@ desc = f""":pencil: 翻譯追蹤
 
 webhook = DiscordWebhook(
     url=os.getenv("DC_WEBHOOK_URL"),
-    id=os.getenv("DC_WEBHOOK_ID"),
-    avatar_url="https://paratranz.cn/favicon.png"
+    id=os.getenv("DC_WEBHOOK_ID")
 )
 
 embed = DiscordEmbed(
