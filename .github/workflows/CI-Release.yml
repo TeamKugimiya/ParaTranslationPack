@@ -47,7 +47,7 @@ jobs:
       PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
 
   para_modrinth_publish:
-    name: Step 3 | Modrinth Publish
+    name: Step 3 | Modrinth Publish ${{ matrix.mc_version }}
     needs: [ para_paraify, para_modrinth_summary, github_matrix ]
     strategy:
       max-parallel: 1
