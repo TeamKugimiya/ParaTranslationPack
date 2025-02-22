@@ -40,7 +40,7 @@ def run():
     )
     artifact_data = para.artifacts.get_artifacts_info(project_id)
     summary_data = paratranz_modrinth_generate_summary(artifact_data)
-    github_write_step_output("summary", summary_data)
+    github_write_step_output("summary", summary_data, True)
 
 
 if __name__ == "__main__":

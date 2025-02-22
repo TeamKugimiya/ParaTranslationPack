@@ -7,7 +7,7 @@ from pathlib import Path
 from loguru import logger
 
 
-def github_write_step_output(step_output_name: str, data: str):
+def github_write_step_output(step_output_name: str, data: str, multiline: bool = False): # noqa
     """
     Write step output to GITHUB_OUTPUT environment.
 
@@ -16,6 +16,8 @@ def github_write_step_output(step_output_name: str, data: str):
             Step output name.
         data (str):
             Step output data.
+        multiline (bool):
+            Write data in multiline format.
     """
     github_step_output_env = os.environ.get("GITHUB_OUTPUT")
 
@@ -27,7 +29,10 @@ def github_write_step_output(step_output_name: str, data: str):
 
     try:
         with github_step_output_path.open("a") as output_file:
-            output_file.write(f"{step_output_name}={data}")
+            if multiline:
+                output_file.write(f"{step_output_name}<<EOF\n{data}\nEOF\n")
+            else:
+                output_file.write(f"{step_output_name}={data}")
             output_file.close()
     except Exception as e:
         logger.error(f"Failed to write to GITHUB_OUTPUT: {e}")
