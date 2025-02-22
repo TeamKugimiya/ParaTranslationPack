@@ -141,6 +141,20 @@ def chore():
     remove_dir(PATH_ARTIFACT)
 
 
+def fix_new_line():
+    """
+    Temporary fix for new line.
+    Replace \\n to \n
+    """
+    for file in PATH_ARTIFACT.glob("**/*.json"):
+        data = file.read_text()
+        if "\\n" in data:
+            new_data = data.replace("\\\\n", "\\n")
+            if new_data != data:
+                file.write_text(new_data)
+                logger.success(f"Fixed new line: {file.name}")
+
+
 def run():
     para_token = os.getenv("PARATRANZ_TOKEN")
     para_project_id = 9900
@@ -153,6 +167,7 @@ def run():
     mc_supported_format_max = os.getenv("MC_SUPPORTED_FORMAT_MAX")
 
     download_artifact(paratranz, para_project_id)
+    fix_new_line()
     modify_file_date(paratranz, para_project_id)
     format_resourcepack()
     generate_pack_format(pack_format, mc_supported_format_min, mc_supported_format_max) # noqa
