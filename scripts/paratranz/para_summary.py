@@ -17,14 +17,14 @@ def timestamp_format(timestamp: str):
 def paratranz_modrinth_generate_summary(artifact_data: dict):
     logger.info("Generate modrinth summary...")
 
-    date_time = timestamp_format(artifact_data['createdAt'])
-    completion_percent = calculate_percentage(artifact_data['translated'], artifact_data['total']) # noqa
+    date_time = timestamp_format(artifact_data["createdAt"])
+    completion_percent = calculate_percentage(artifact_data["translated"], artifact_data["total"]) # noqa
 
     summary = f"""## 🌏 翻譯資訊
 - Para 建構時間：`{date_time}`
-- 總詞條數：`{artifact_data['total']}`
-- 已翻譯條數：`{artifact_data['translated']}`
-- 有疑問條數：`{artifact_data['disputed']}`
+- 總詞條數：`{artifact_data["total"]}`
+- 已翻譯條數：`{artifact_data["translated"]}`
+- 有疑問條數：`{artifact_data["disputed"]}`
 - 翻譯完成度：**{completion_percent:.2f}%**
 """
     logger.info("Generated modrinth summary:")
