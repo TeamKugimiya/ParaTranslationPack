@@ -84,7 +84,7 @@ def format_resourcepack():
     if not PATH_ASSETS.exists():
         PATH_ASSETS.mkdir()
     for file_path in PATH_ARTIFACT.glob("**/*.json"):
-        mod_id = file_path.name.strip(".json")
+        mod_id = file_path.name.removesuffix(".json")
         if validate_mc_lang_data(file_path):
             if not load_jsondata(file_path):
                 logger.warning(f"Empty lang data: {mod_id}")
