@@ -115,7 +115,7 @@ def generate_pack_format(
                 "max_inclusive": int(mc_supported_format_max)
             },
             "description": [
-                f"§fPara 翻譯包｜§b{date}",
+                f"§fPara 翻譯包｜§b{date}\n",
                 "§3感謝所有參與專案的貢獻者！"
             ]
         }
