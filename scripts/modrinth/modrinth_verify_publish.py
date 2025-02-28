@@ -1,6 +1,7 @@
 """
 Get Modrinth release version to check is it duplicate or not.
 """
+
 import requests
 import pytz
 from scripts.utils import github_write_step_output
@@ -42,9 +43,13 @@ def get_current_date() -> str:
 def run():
     modrinth_latest_release_date = get_modrinth_latest_publish_date()
     current_date = get_current_date()
-    logger.info("Modrinth: {} | Current: {}", modrinth_latest_release_date, current_date) # noqa
+    logger.info(
+        "Modrinth: {} | Current: {}", modrinth_latest_release_date, current_date
+    )
     is_same_date = modrinth_latest_release_date == current_date
-    logger.info(f"Modrinth latest release date is {'same' if is_same_date else 'not same'} as current date!") # noqa
+    logger.info(
+        f"Modrinth latest release date is {'same' if is_same_date else 'not same'} as current date!"
+    )
     github_write_step_output("is_same_date", str(is_same_date).lower())
 
 

@@ -3,7 +3,14 @@ import json
 from pathlib import Path
 from loguru import logger
 from paratranz_py import ParaTranz
-from scripts.utils import validate_json_schema, load_jsondata, convert_epoch, current_date, copy_file, remove_dir # noqa
+from scripts.utils import (
+    validate_json_schema,
+    load_jsondata,
+    convert_epoch,
+    current_date,
+    copy_file,
+    remove_dir,
+)
 
 
 PATH_WORKDIR = Path("workdir")
@@ -23,8 +30,7 @@ def download_artifact(para: ParaTranz, project_id: str):
             ParaTranz project ID.
     """
     para.artifacts.download_artifacts(
-        project_id=project_id,
-        extract_path=PATH_WORKDIR.joinpath("artifact_data")
+        project_id=project_id, extract_path=PATH_WORKDIR.joinpath("artifact_data")
     )
 
 
@@ -43,7 +49,7 @@ def modify_file_date(para: ParaTranz, project_id: int):
 
         for artifact in artifact_data:
             if multiversion_name in artifact["name"]:
-                artifact_time = artifact['modifiedAt']
+                artifact_time = artifact["modifiedAt"]
                 epoch_time = convert_epoch(artifact_time)
                 old_a_time = os.path.getatime(file)
                 old_m_time = os.path.getmtime(file)
@@ -51,12 +57,13 @@ def modify_file_date(para: ParaTranz, project_id: int):
                 new_a_time = os.path.getatime(file)
                 new_m_time = os.path.getmtime(file)
 
-                logger.info("\n"
-                            f"Modified file: {multiversion_name}\n"
-                            f"- Last Modify Time: {artifact_time}\n"
-                            f"- Modify Time {old_m_time} -> {new_m_time}\n"
-                            f"- Access Time {old_a_time} -> {new_a_time}"
-                            )
+                logger.info(
+                    "\n"
+                    f"Modified file: {multiversion_name}\n"
+                    f"- Last Modify Time: {artifact_time}\n"
+                    f"- Modify Time {old_m_time} -> {new_m_time}\n"
+                    f"- Access Time {old_a_time} -> {new_a_time}"
+                )
                 break
         else:
             logger.error(f"File not found: {multiversion_name}")
@@ -98,10 +105,8 @@ def format_resourcepack():
 
 
 def generate_pack_format(
-        pack_format: int,
-        mc_supported_format_min: int,
-        mc_supported_format_max: int
-        ):
+    pack_format: int, mc_supported_format_min: int, mc_supported_format_max: int
+):
     """
     Generate pack format.
     """
@@ -112,12 +117,12 @@ def generate_pack_format(
             "pack_format": int(pack_format),
             "supported_formats": {
                 "min_inclusive": int(mc_supported_format_min),
-                "max_inclusive": int(mc_supported_format_max)
+                "max_inclusive": int(mc_supported_format_max),
             },
             "description": [
                 f"§fPara 翻譯包｜§b{date}\n",
-                "§3感謝所有參與專案的貢獻者！"
-            ]
+                "§3感謝所有參與專案的貢獻者！",
+            ],
         }
     }
     json_data = json.dumps(pack_mcmeta, ensure_ascii=False)
@@ -158,9 +163,7 @@ def fix_new_line():
 def run():
     para_token = os.getenv("PARATRANZ_TOKEN")
     para_project_id = 9900
-    paratranz = ParaTranz(
-        para_token
-    )
+    paratranz = ParaTranz(para_token)
 
     pack_format = os.getenv("MC_PACK_FORMAT")
     mc_supported_format_min = os.getenv("MC_SUPPORTED_FORMAT_MIN")
@@ -170,7 +173,7 @@ def run():
     fix_new_line()
     modify_file_date(paratranz, para_project_id)
     format_resourcepack()
-    generate_pack_format(pack_format, mc_supported_format_min, mc_supported_format_max) # noqa
+    generate_pack_format(pack_format, mc_supported_format_min, mc_supported_format_max)
     copy_files()
     chore()
 

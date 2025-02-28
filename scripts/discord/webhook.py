@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 from loguru import logger
 from paratranz_py import ParaTranz
-from scripts.utils import calculate_percentage, current_date, current_dtime, current_r2 # noqa
+from scripts.utils import calculate_percentage, current_date, current_dtime, current_r2
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
 para = ParaTranz(os.getenv("PARATRANZ_TOKEN"))
@@ -28,17 +28,12 @@ desc = f""":pencil: 翻譯追蹤
 - Modrinth - [ParaTranslationPack]({mr_url})
 """
 
-webhook = DiscordWebhook(
-    url=os.getenv("DC_WEBHOOK_URL"),
-    id=os.getenv("DC_WEBHOOK_ID")
-)
+webhook = DiscordWebhook(url=os.getenv("DC_WEBHOOK_URL"), id=os.getenv("DC_WEBHOOK_ID"))
 
-embed = DiscordEmbed(
-    title="ParaTranslationPack",
-    description=desc,
-    color="2f3136"
+embed = DiscordEmbed(title="ParaTranslationPack", description=desc, color="2f3136")
+embed.set_thumbnail(
+    url="https://cdn.modrinth.com/data/7DO0XWSK/26578cea26e7743d4377ddbc4f4ad69072e3147c_96.webp"
 )
-embed.set_thumbnail(url="https://cdn.modrinth.com/data/7DO0XWSK/26578cea26e7743d4377ddbc4f4ad69072e3147c_96.webp") # noqa
 embed.set_timestamp(datetime.now().timestamp())
 
 webhook.add_embed(embed)

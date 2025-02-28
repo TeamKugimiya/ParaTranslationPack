@@ -1,2 +1,2 @@
-from .github import *
-from .utils import *
+from .github import *  # noqa
+from .utils import *  # noqa

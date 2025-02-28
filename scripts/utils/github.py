@@ -1,13 +1,14 @@
 """
 Misc Utils for GitHub
 """
+
 import os
 import sys
 from pathlib import Path
 from loguru import logger
 
 
-def github_write_step_output(step_output_name: str, data: str, multiline: bool = False): # noqa
+def github_write_step_output(step_output_name: str, data: str, multiline: bool = False):
     """
     Write step output to GITHUB_OUTPUT environment.
 

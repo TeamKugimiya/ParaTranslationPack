@@ -14,7 +14,7 @@ def matrix_generate(version_data: dict) -> dict:
                 "mc_supported_formats_min": v.get("mc_supported_formats_min"),
                 "mc_supported_formats_max": v.get("mc_supported_formats_max"),
                 "modrinth_version": v.get("modrinth_version"),
-                "directory_path": v.get("directory_path")
+                "directory_path": v.get("directory_path"),
             }
             for v in version_data.get("versions", [])
         ]

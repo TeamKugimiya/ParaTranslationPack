@@ -1,6 +1,7 @@
 """
 Get ParaTranz artifact id data and write it to cache file.
 """
+
 import os
 from pathlib import Path
 from loguru import logger
@@ -8,7 +9,7 @@ from paratranz_py import ParaTranz
 
 
 def paratranz_write_cache(
-        artifact_data: dict, cache_path: Path, cache_fname: str
+    artifact_data: dict, cache_path: Path, cache_fname: str
 ) -> bool:
     """
     Write ParaTranz artifact id data to cache file.
@@ -46,9 +47,7 @@ def run():
     cache_file = "paratranz_id_cache.txt"
     project_id = 9900
     api_token = os.getenv("PARATRANZ_API_TOKEN")
-    para = ParaTranz(
-        api_token=api_token
-    )
+    para = ParaTranz(api_token=api_token)
 
     artifact_data = para.artifacts.get_artifacts_info(project_id)
     paratranz_write_cache(artifact_data, cache_folder, cache_file)

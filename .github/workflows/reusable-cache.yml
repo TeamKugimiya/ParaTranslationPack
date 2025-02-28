@@ -17,8 +17,6 @@ on:
         description: "Paratranz API Token"
 
 env:
-  python_version: "3.13"
-  poetry_version: "2.1.1"
   PARATRANZ_API_TOKEN: ${{ secrets.PARATRANZ_API_TOKEN }}
   LOGURU_LEVEL: "INFO"
 
@@ -35,30 +33,12 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5.4.0
         with:
-          python-version: ${{ env.python_version }}
+          python-version-file: ".python-version"
 
-      - name: Setup Poetry
-        uses: snok/install-poetry@v1.4.1
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5.3.0
         with:
-          version: ${{ env.poetry_version }}
-          virtualenvs-create: true
-          virtualenvs-in-project: true
-          virtualenvs-path: .venv
-          installer-parallel: true
-
-      - name: Cache Poetry Dependencies
-        id: poetry_dependencies_cache
-        uses: actions/cache@v4.2.0
-        with:
-          path: ./.venv
-          key: venv-${{ hashFiles('poetry.lock') }}
-
-      - name: Poetry install dependencies
-        if: ${{ steps.poetry_dependencies_cache.outputs.cache-hit != 'true' }}
-        run: |
-          poetry config virtualenvs.create true --local
-          poetry config virtualenvs.in-project true --local
-          poetry install --no-interaction
+          enable-cache: true
 
       - name: Restore Cache
         uses: actions/cache/restore@v4.2.0
@@ -68,7 +48,7 @@ jobs:
 
       - name: Run Cache Script
         run: |
-          poetry run para_cache_id
+          uv run para_cache_id
 
       - name: Save Cache
         id: para_cache

@@ -18,7 +18,9 @@ def paratranz_modrinth_generate_summary(artifact_data: dict):
     logger.info("Generate modrinth summary...")
 
     date_time = timestamp_format(artifact_data["createdAt"])
-    completion_percent = calculate_percentage(artifact_data["translated"], artifact_data["total"]) # noqa
+    completion_percent = calculate_percentage(
+        artifact_data["translated"], artifact_data["total"]
+    )
 
     summary = f"""## 🌏 翻譯資訊
 - Para 建構時間：`{date_time}`
@@ -35,9 +37,7 @@ def paratranz_modrinth_generate_summary(artifact_data: dict):
 def run():
     api_token = os.getenv("PARATRANZ_TOKEN")
     project_id = 9900
-    para = ParaTranz(
-        api_token=api_token
-    )
+    para = ParaTranz(api_token=api_token)
     artifact_data = para.artifacts.get_artifacts_info(project_id)
     summary_data = paratranz_modrinth_generate_summary(artifact_data)
     github_write_step_output("summary", summary_data, True)
