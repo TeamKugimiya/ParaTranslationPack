@@ -1,0 +1,4 @@
+[bypass_json_validation]
+mods = [
+    "oritech"
+]

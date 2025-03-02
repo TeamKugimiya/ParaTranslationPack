@@ -6,6 +6,7 @@ from paratranz_py import ParaTranz
 from scripts.utils import (
     validate_json_schema,
     load_jsondata,
+    load_tomldata,
     convert_epoch,
     current_date,
     copy_file,
@@ -88,11 +89,19 @@ def format_resourcepack():
     """
     Format resourcepack data.
     """
+    bypass_mods = load_tomldata("configs/build-config.toml")["bypass_json_validation"]["mods"]
     if not PATH_ASSETS.exists():
         PATH_ASSETS.mkdir()
     for file_path in PATH_ARTIFACT.glob("**/*.json"):
         mod_id = file_path.name.removesuffix(".json")
-        if validate_mc_lang_data(file_path):
+
+        if mod_id in bypass_mods:
+            logger.warning("Bypassing validation: " + mod_id)
+            valid = True
+        else:
+            valid = validate_mc_lang_data(file_path)
+
+        if valid:
             if not load_jsondata(file_path):
                 logger.warning(f"Empty lang data: {mod_id}")
                 continue
