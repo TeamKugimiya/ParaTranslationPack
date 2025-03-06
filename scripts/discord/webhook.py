@@ -7,7 +7,7 @@ from discord_webhook import DiscordWebhook, DiscordEmbed
 
 para = ParaTranz(os.getenv("PARATRANZ_TOKEN"))
 mr_url = "https://modrinth.com/resourcepack/paratranslationpack"
-r2_url = "https://teamkugimiya-r2.efina.eu.org/paratranslationpack/"
+r2_url = "https://gh-r2.teamkugimiya.org/paratranslationpack/"
 
 data = para.artifacts.get_artifacts_info("9900")
 
