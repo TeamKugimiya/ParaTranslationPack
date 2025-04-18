@@ -59,3 +59,4 @@ jobs:
       modrinth_summary: ${{ needs.para_modrinth_summary.outputs.modrinth-summary }}
     secrets:
       MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+      CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}

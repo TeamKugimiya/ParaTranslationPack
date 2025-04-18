@@ -19,6 +19,9 @@ on:
         MODRINTH_TOKEN:
           description: "Modrinth API Token"
           required: true
+        CURSEFORGE_TOKEN:
+          description: "CurseForge API Token"
+          required: true
 
 jobs:
   modrinth_publish:
@@ -47,6 +50,8 @@ jobs:
         with:
           modrinth-id: 7DO0XWSK
           modrinth-unfeature-mode: subset
+          curseforge-id: 1245579
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           name: Para 翻譯包 ${{ inputs.mc_version }}｜${{ steps.date.outputs.today_dash }}
           version: ${{ inputs.mc_version }}-${{ steps.date.outputs.today }}
           version-type: release
