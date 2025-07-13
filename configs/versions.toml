@@ -50,7 +50,7 @@ mc_version = "1.21.x"
 mc_pack_format = 34
 ## 支援版本
 mc_supported_formats_min = 34
-mc_supported_formats_max = 46
+mc_supported_formats_max = 64
 ## Modrinth 支援範圍
 modrinth_version = ">=1.21"
 ## 路徑位置
