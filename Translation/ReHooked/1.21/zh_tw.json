@@ -26,7 +26,7 @@
   "tooltip.rehooked.press_fire": "按下 %1$s 發射鉤爪",
   "tooltip.rehooked.press_retract": "看向鉤爪並按下 %1$s 來將其收回",
   "tooltip.rehooked.press_retract_all": "按下 %1$s 來收回所有鉤爪",
-  "tooltip.rehooked.press_shift_more_info": "<按住 Shift 查看控制方式>",
+  "tooltip.rehooked.press_shift_more_info": "<Press §eShift§r to see controls>",
   "tooltip.rehooked:blaze_hook.info": "極度迅速！也如烈火般熾熱！",
   "tooltip.rehooked:diamond_chain.info": "閃閃發光，但仍舊不及光速。",
   "tooltip.rehooked:diamond_hook.info": "鉤爪的數量更多，發射的速度也更快。",

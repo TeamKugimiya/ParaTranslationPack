@@ -10,7 +10,7 @@
   "info_book.integratedrest.http.text2": "必須在 HTTP Proxy 中選擇某個值類型，並且只會接受該類型的請求。",
   "info_book.integratedrest.http.text3": "更多資訊可在 GitHub wiki 上找到",
   "info_book.integratedrest.introduction": "介紹",
-  "info_book.integratedrest.introduction.text1": "&l集成 REST&r 是一個模組，可透過 REST API 讀取和寫入你的 &l集成動力&r 網路。",
+  "info_book.integratedrest.introduction.text1": "&lIntegrated REST&r is a mod that allows you to read from and write to your &lIntegrated Dynamics&r networks via a REST API.",
   "info_book.integratedrest.introduction.text2": "這使得透過 Web 協定讀取網路和世界的狀態成為可能，並透過向世界中的 HTTP Proxy 方塊 POST 值與其互動。",
   "info_book.integratedrest.introduction.text3": "檢查伺服器控制台，查看您的伺服器運行位置以及可以找到什麼樣的資訊。（預設為 &lhttp://localhost:3000/&r）",
   "info_book.integratedrest.section.main": "REST",

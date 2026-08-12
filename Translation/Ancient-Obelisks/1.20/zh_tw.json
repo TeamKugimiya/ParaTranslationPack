@@ -37,7 +37,7 @@
   "library_of_exile.relic_stat.mob_spawn_chance": "%1$s 生物生成機率",
   "library_of_exile.relic_stat.obelisk_content": "你的地圖包含方尖碑內容的機率提高 %1$s",
   "library_of_exile.relic_stat.total_wave_mobs": "每波生物數量增加 %1$s",
-  "library_of_exile.relic_stat.triple_chest_chance": "%1$s 機率使最終獎勵箱變為三倍",
+  "library_of_exile.relic_stat.triple_chest_chance": "%1$s Chance to Triple the Reward Chests",
   "library_of_exile.relic_stat.triple_obelisk_chance": "%1$s 機率包含 3 倍方尖碑",
   "library_of_exile.relic_type.ancient_obelisks": "方尖碑遺物"
 }

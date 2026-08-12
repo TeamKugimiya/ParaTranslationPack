@@ -30,7 +30,7 @@
   "item.kobolds.kobold_iron_spear_vb": "Kobold Iron Spear",
   "item.kobolds.kobold_iron_sword": "哥布林鐵劍",
   "item.kobolds.kobold_spawn_egg": "哥布林生怪蛋",
-  "item.kobolds.kobold_template": "哥布林盔甲鍛造模板",
+  "item.kobolds.kobold_template": "Smithing Template",
   "item.kobolds.kobold_zombie_spawn_egg": "殭屍哥布林生怪蛋",
   "item.kobolds.music_disc_kobblestone": "音樂唱片",
   "item.kobolds.music_disc_kobblestone.desc": "Lorian Ross - Kobblestone",
@@ -46,5 +46,5 @@
   "subtitles.kobold_trade": "好，成交！",
   "subtitles.kobold_yip": "耶！",
   "subtitles.music_kobblestone": "輕柔的音樂",
-  "trim_pattern.kobolds.kobold": "哥布林"
+  "trim_pattern.kobolds.kobold": "Kobold Armor Trim"
 }

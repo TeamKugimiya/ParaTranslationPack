@@ -5,7 +5,7 @@
   "button.count.high": "生成數量：高",
   "button.count.low": "生成數量：低",
   "button.count.very_high": "生成數量：非常高",
-  "button.range.custom": "自訂生成範圍",
+  "button.range.custom": "Range: Custom",
   "button.range.default": "生成範圍：遠",
   "button.range.disabled": "已停用範圍選項",
   "button.range.high": "生成範圍：非常遠",

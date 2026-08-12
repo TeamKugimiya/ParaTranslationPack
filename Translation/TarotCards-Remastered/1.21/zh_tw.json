@@ -46,7 +46,7 @@
   "item.tarotcards.the_moon": "塔羅牌：月亮",
   "item.tarotcards.the_moon.desc": "夜視效果。",
   "item.tarotcards.the_star": "塔羅牌：星星",
-  "item.tarotcards.the_star.desc": "基礎攻擊距離提高 +%d%%。",
+  "item.tarotcards.the_star.desc": "+%d%% Base block reach distance.",
   "item.tarotcards.the_sun": "塔羅牌：太陽",
   "item.tarotcards.the_sun.desc": "基礎生命值提高 +%d%%。",
   "item.tarotcards.the_tower": "塔羅牌：塔樓",

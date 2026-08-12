@@ -390,7 +390,7 @@
   "tooltip.furniture.smoke_type.no_smoke": "無煙霧",
   "tooltip.furniture.smoke_type.smoke": "中量煙霧",
   "tooltip.furniture.trash_bag": "有些人丟的東西還真奇怪……",
-  "tooltip.furniture.trash_bag.cooldown": "Ugh！你已經打開一個了。\n得稍等一下才能打開下一個垃圾袋。",
+  "tooltip.furniture.trash_bag.cooldown": "Ugh! You've already opened one.\nWait a bit before you can open the next Trash Bag.",
   "tooltip.furniture.vent_disabled": "已停用排煙口",
   "tooltip.furniture.vent_enabled": "已啟用排煙口"
 }

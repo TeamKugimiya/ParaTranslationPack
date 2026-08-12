@@ -10,7 +10,7 @@
   "config.sort_it_out.client_preferences.comparators.tooltip": "用於比較物品的依據列表。若第一個依據判定兩個物品相同，則會使用下一個依據（依此類推）。",
   "config.sort_it_out.client_preferences.invertSorting": "反轉整理順序",
   "config.sort_it_out.client_preferences.packetSendInterval": "封包傳送間隔",
-  "config.sort_it_out.client_preferences.packetSendInterval.tooltip": "整理物品時，用戶端向伺服器傳送封包的時間間隔（以遊戲刻為單位）。數值過低可能導致被伺服器踢出。",
+  "config.sort_it_out.client_preferences.packetSendInterval.tooltip": "The interval, in milliseconds, at which to send packets to the server when sorting client side. Too low of a value could cause you to be kicked from the server.",
   "config.sort_it_out.client_preferences.slotSortingTrigger": "欄位整理觸發器",
   "config.sort_it_out.client_preferences.slotSortingTrigger.double_click_empty_slot": "雙擊空欄位",
   "config.sort_it_out.client_preferences.slotSortingTrigger.none": "None",

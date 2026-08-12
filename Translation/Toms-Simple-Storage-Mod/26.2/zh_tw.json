@@ -50,7 +50,7 @@
   "key.toms_storage.open_terminal": "[Tom's Simple Storage] Open Terminal",
   "label.toms_storage.inventory_connector.beacon_level": "烽火台等級：&d",
   "menu.toms_storage.crafting_terminal": "合成終端",
-  "menu.toms_storage.filing_cabinet": "灌裝櫃",
+  "menu.toms_storage.filing_cabinet": "Filing Cabinet",
   "menu.toms_storage.inventory_configurator": "儲物配置器（%s）",
   "menu.toms_storage.inventory_connector": "儲物連接器",
   "menu.toms_storage.level_emitter": "位準發射器",

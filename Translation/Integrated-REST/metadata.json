@@ -23,8 +23,8 @@
   },
   "status": {
     "translation_progress": {
-      "26.2": 81.25,
-      "overall": 81.25
+      "26.2": 75,
+      "overall": 75
     },
     "mod_versions": {
       "26.2": "integratedrest-26.2-neoforge-1.1.15-207.jar"

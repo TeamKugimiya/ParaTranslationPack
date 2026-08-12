@@ -23,7 +23,7 @@
   "block.createbb.ephedra_crop_block": "麻黃作物",
   "block.createbb.trapped_brass_call_bell": "限制黃銅呼叫鈴",
   "brass_call_bell_tooltip": "§8叮！",
-  "ephedra_tooltip": "§8向農民購買。",
+  "ephedra_tooltip": "§8Can be farmed or bought from villagers.",
   "fluid.createbb.acetic_anhydride": "醋酸酐",
   "fluid.createbb.ammonia": "氨",
   "fluid.createbb.hydrogen": "氫氣",
@@ -59,7 +59,7 @@
   "item.createbb.oxygen_bucket": "氧氣桶",
   "item.createbb.phenylacetic_acid_bucket": "苯乙酸桶",
   "item.createbb.phenylacetone_bucket": "苯乙酮桶",
-  "item.createbb.pseudophedrine": "偽麻黃鹼",
+  "item.createbb.pseudophedrine": "Pseudoephedrine",
   "item.createbb.red_phosphorus": "紅磷",
   "item.createbb.sudafed": "舒達非",
   "item.createbb.sudafed_box": "舒達非盒",
@@ -82,6 +82,6 @@
   "itemGroup.createbb": "Create: Broken Bad",
   "match_tooltip": "§8一次性火種。",
   "not_consumed_tooltip": "§8使用時不會被消耗。",
-  "sudafed_box_tooltip": "§8Box of 'sudos.",
-  "sudafed_tooltip": "§8'sudos."
+  "sudafed_box_tooltip": "§8Boxed OTC decongestant.",
+  "sudafed_tooltip": "§8Cold relief stimulant."
 }
