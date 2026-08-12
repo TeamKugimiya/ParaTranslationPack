@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "wildernature",
+  "display_name": {
+    "en": "[Let's Do] WilderNature"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1071657"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 44.57,
+      "overall": 44.57
+    },
+    "mod_versions": {
+      "1.21": "WilderNature - 1.1.5 - NEOFORGE - 1.21.1"
+    }
+  }
+}

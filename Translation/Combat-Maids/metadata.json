@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "combat_maid",
+  "display_name": {
+    "en": "Combat Maids"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "K3EbWchE"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.11",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "1.21.11-v1.1.0-beta"
+    }
+  }
+}

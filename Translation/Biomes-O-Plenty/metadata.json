@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "biomesoplenty",
+  "display_name": {
+    "en": "Biomes O' Plenty"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "HXF82T3G"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 77.18,
+      "overall": 77.18
+    },
+    "mod_versions": {
+      "26.2": "26.2.0.0.27"
+    }
+  }
+}

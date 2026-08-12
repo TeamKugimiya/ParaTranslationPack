@@ -1,0 +1,16 @@
+{
+  "block.redstoneclock.pulse_divider": "Pulse Divider",
+  "block.redstoneclock.redstone_clock": "Redstone Clock",
+  "itemGroup.redstoneclock": "Redstone Clock",
+  "language": "English",
+  "language.code": "en_us",
+  "language.region": "United States",
+  "screen.redstoneclock.pulse_divider.every_pulse": "Output after pulses",
+  "screen.redstoneclock.pulse_divider.signal_strength": "Strength of signal",
+  "screen.redstoneclock.redstone_clock.active_interval": "Activated ticks",
+  "screen.redstoneclock.redstone_clock.idle_interval": "Inactivated ticks",
+  "screen.redstoneclock.redstone_clock.multiplier": "Multiplier:",
+  "screen.redstoneclock.redstone_clock.signal_strength": "Strength of signal",
+  "screen.redstoneclock.redstone_clock.tooltip.time": "Time: %sh %sm %ss %sms",
+  "screen.redstoneclock.redstone_clock.tooltip.total_ticks": "Total ticks: %s"
+}

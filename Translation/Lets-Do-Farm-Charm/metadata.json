@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "farm_and_charm",
+  "display_name": {
+    "en": "[Let's Do] Farm & Charm"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1038103"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 55.75,
+      "overall": 55.75
+    },
+    "mod_versions": {
+      "1.21": "Farm&Charm - 1.1.23 - NEOFORGE - 1.21.1"
+    }
+  }
+}

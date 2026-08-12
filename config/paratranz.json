@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "project_id": 9900,
+  "adapter": "translation-pack-v1",
+  "api_base_url": "https://paratranz.cn/api",
+  "remote_path_template": "Translation/{content_id}/{tier}/{mod_id}.json",
+  "artifact_path_prefix": "utf8",
+  "request_budget_per_minute": 100,
+  "legacy_newline_policy": "normalize"
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "astrocraft",
+  "display_name": {
+    "en": "Astrocraft: Realistic Night Skies"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1010757"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.4",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 15.52,
+      "overall": 15.52
+    },
+    "mod_versions": {
+      "1.21": "astrocraft-1.5.1+1.21.4.jar"
+    }
+  }
+}

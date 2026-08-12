@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "geore",
+  "display_name": {
+    "en": "GeOre"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "530544"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 70.15,
+      "overall": 70.15
+    },
+    "mod_versions": {
+      "26.1": "GeOre-26.1.2-8.0.6.jar"
+    }
+  }
+}

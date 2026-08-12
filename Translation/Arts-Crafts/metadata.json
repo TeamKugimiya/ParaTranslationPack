@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "arts_and_crafts",
+  "display_name": {
+    "en": "Arts & Crafts"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1034791"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 75.75,
+      "overall": 75.75
+    },
+    "mod_versions": {
+      "1.21": "arts_and_crafts-neoforge-1.21.1-1.5.4.jar"
+    }
+  }
+}

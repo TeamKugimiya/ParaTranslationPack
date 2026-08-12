@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "ad_astra",
+  "display_name": {
+    "en": "Ad Astra"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "3ufwT9JF"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.20.4",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 95.5,
+      "overall": 95.5
+    },
+    "mod_versions": {
+      "1.20": "1.16.5"
+    }
+  }
+}

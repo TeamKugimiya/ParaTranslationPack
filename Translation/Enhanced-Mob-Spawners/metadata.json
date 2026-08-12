@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "spawnermod",
+  "display_name": {
+    "en": "Enhanced Mob Spawners"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "321663"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 95.83,
+      "overall": 95.83
+    },
+    "mod_versions": {
+      "1.21": "spawnermod-1.21.1-1.2.8+Fabric.jar"
+    }
+  }
+}

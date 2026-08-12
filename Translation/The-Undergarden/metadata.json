@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "undergarden",
+  "display_name": {
+    "en": "The Undergarden"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "Ejfl5qDL"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 66.16,
+      "overall": 66.16
+    },
+    "mod_versions": {
+      "26.1": "0.9.7"
+    }
+  }
+}

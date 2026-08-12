@@ -1,0 +1,9 @@
+{
+  "block.fishermens_trap.fishtrap": "捕魚籃",
+  "fishermens_trap.configuration.chance": "機率",
+  "fishermens_trap.configuration.enable_full_stack_catch": "捕魚籃捕獲物整組堆疊",
+  "fishermens_trap.configuration.max_ticks": "最小間隔刻",
+  "fishermens_trap.configuration.min_ticks": "最大間隔刻",
+  "fishermens_trap.container.fishtrap": "捕魚籃",
+  "fishermens_trap.jei.fishtrap_fishing": "捕魚籃捕獲"
+}

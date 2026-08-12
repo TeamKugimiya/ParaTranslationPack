@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "silentgems",
+  "display_name": {
+    "en": "Silent's Gems"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "220311"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 0,
+      "overall": 0
+    },
+    "mod_versions": {
+      "26.1": "5.1.4 for NeoForge 26.1.2"
+    }
+  }
+}

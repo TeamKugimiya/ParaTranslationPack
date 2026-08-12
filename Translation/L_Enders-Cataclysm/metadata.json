@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "cataclysm",
+  "display_name": {
+    "en": "L_Ender's Cataclysm"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "46KJle7n"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.5",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 94.51,
+      "overall": 94.51
+    },
+    "mod_versions": {
+      "1.21": "3.23"
+    }
+  }
+}

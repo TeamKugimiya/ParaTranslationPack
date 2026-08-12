@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "toms_storage",
+  "display_name": {
+    "en": "Tom's Simple Storage Mod"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "378609"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 33.18,
+      "overall": 33.18
+    },
+    "mod_versions": {
+      "26.2": "[NeoForge] Tom's Storage 26.2-2.11.1"
+    }
+  }
+}

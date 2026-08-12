@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "tameablebeasts",
+  "display_name": {
+    "en": "Tameable Beasts"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "646425"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 24.45,
+      "overall": 24.45
+    },
+    "mod_versions": {
+      "1.20": "tameablebeasts-1.20.1-7.1.3"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "jamlib",
+  "display_name": {
+    "en": "JamLib"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "623764"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 83.33,
+      "overall": 83.33
+    },
+    "mod_versions": {
+      "26.2": "V2.3.1+26.2.x (NeoForge 26.2)"
+    }
+  }
+}

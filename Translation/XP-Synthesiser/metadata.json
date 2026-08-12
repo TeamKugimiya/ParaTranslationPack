@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "xp_synthesiser",
+  "display_name": {
+    "en": "XP Synthesiser"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1158580"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 86.67,
+      "overall": 86.67
+    },
+    "mod_versions": {
+      "1.21": "xp_synthesiser-1.0.3.jar"
+    }
+  }
+}

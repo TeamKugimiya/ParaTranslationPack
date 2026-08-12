@@ -1,0 +1,7 @@
+{
+  "block.disenchanting.disenchanter": "Disenchanter",
+  "block.disenchanting.disenchanter.tooltip": "Disenchant your items and put them onto books.",
+  "gui.disenchanting.disenchanter.cost": "Cost",
+  "itemGroup.disenchanting.disenchanting": "Disenchanting",
+  "tabs.disenchanting.tab": "Disenchanting"
+}

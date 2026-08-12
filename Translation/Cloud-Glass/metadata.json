@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "cloudglass",
+  "display_name": {
+    "en": "Cloud Glass"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1157074"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "26.1": "CloudGlass-26.1.2-3.0.1.jar"
+    }
+  }
+}

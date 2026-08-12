@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "tarotcards",
+  "display_name": {
+    "en": "TarotCards: Remastered"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1473837"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.11",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 44.76,
+      "overall": 44.76
+    },
+    "mod_versions": {
+      "1.21": "[NeoForge1.21.11] v2.3.5"
+    }
+  }
+}

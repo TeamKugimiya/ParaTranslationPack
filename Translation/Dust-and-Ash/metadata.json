@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "dustandash",
+  "display_name": {
+    "en": "Dust and Ash"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "972493"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 99.23,
+      "overall": 99.23
+    },
+    "mod_versions": {
+      "1.20": "Dust and Ash_1.20.1_0.1.7-b"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "croptopia",
+  "display_name": {
+    "en": "Croptopia"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "415438"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 91.6,
+      "overall": 91.6
+    },
+    "mod_versions": {
+      "26.2": "croptopia-neoforge-26.2-4.3.1.jar"
+    }
+  }
+}

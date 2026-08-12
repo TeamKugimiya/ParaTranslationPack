@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "villagersplus",
+  "display_name": {
+    "en": "VillagersPlus (FORGE)"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "817272"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.20": "VillagersPlus 3.1 (FORGE) for 1.20.1"
+    }
+  }
+}

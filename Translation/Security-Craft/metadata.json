@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "securitycraft",
+  "display_name": {
+    "en": "Security Craft"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "64760"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 1.39,
+      "overall": 1.39
+    },
+    "mod_versions": {
+      "26.2": "[26.2] SecurityCraft v1.10.2.1.jar"
+    }
+  }
+}

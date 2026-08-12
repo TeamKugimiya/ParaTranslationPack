@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "obtrophies",
+  "display_name": {
+    "en": "OpenBlocks Trophies"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "683319"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "OpenBlocksTrophies 5.1.6 - NeoForge 1.21.jar"
+    }
+  }
+}

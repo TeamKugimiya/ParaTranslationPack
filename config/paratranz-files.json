@@ -1,0 +1,634 @@
+{
+  "schema_version": 2,
+  "project_id": 9900,
+  "files": [
+    {
+      "mod_id": "absentbydesign",
+      "file_id": 1991712
+    },
+    {
+      "mod_id": "actuallyadditions",
+      "file_id": 2843616
+    },
+    {
+      "mod_id": "ad_astra",
+      "file_id": 1788695
+    },
+    {
+      "mod_id": "ad_astra_giselle_addon",
+      "file_id": 2149093
+    },
+    {
+      "mod_id": "advancednetherite",
+      "file_id": 1462557
+    },
+    {
+      "mod_id": "aethersdelight",
+      "file_id": 1721988
+    },
+    {
+      "mod_id": "alexsdelight",
+      "file_id": 2149090
+    },
+    {
+      "mod_id": "amendments",
+      "file_id": 1731080
+    },
+    {
+      "mod_id": "ancient_obelisks",
+      "file_id": 2347959
+    },
+    {
+      "mod_id": "aquaculturedelight",
+      "file_id": 2741612
+    },
+    {
+      "mod_id": "aquatic_frontiers",
+      "file_id": 1865196
+    },
+    {
+      "mod_id": "ars_caelum",
+      "file_id": 1531367
+    },
+    {
+      "mod_id": "arts_and_crafts",
+      "file_id": 1932156
+    },
+    {
+      "mod_id": "astrocraft",
+      "file_id": 1703567
+    },
+    {
+      "mod_id": "auto_repair_kit",
+      "file_id": 1809764
+    },
+    {
+      "mod_id": "backpacked",
+      "file_id": 1572748
+    },
+    {
+      "mod_id": "better_angel_ring",
+      "file_id": 1772465
+    },
+    {
+      "mod_id": "betterblockz",
+      "file_id": 2620002
+    },
+    {
+      "mod_id": "bibliocraft",
+      "file_id": 1865194
+    },
+    {
+      "mod_id": "biomesoplenty",
+      "file_id": 2221080
+    },
+    {
+      "mod_id": "born_in_chaos_v1",
+      "file_id": 1799933
+    },
+    {
+      "mod_id": "brewinandchewin",
+      "file_id": 2741613
+    },
+    {
+      "mod_id": "cataclysm",
+      "file_id": 1865197
+    },
+    {
+      "mod_id": "celestria",
+      "file_id": 1693467
+    },
+    {
+      "mod_id": "chickens",
+      "file_id": 1593762
+    },
+    {
+      "mod_id": "chisel",
+      "file_id": 2620003
+    },
+    {
+      "mod_id": "chococraft",
+      "file_id": 2493429
+    },
+    {
+      "mod_id": "classicpipes",
+      "file_id": 2620004
+    },
+    {
+      "mod_id": "clayworks",
+      "file_id": 2055391
+    },
+    {
+      "mod_id": "cloudglass",
+      "file_id": 1865202
+    },
+    {
+      "mod_id": "cobblegengalore",
+      "file_id": 2288356
+    },
+    {
+      "mod_id": "collectorsreap",
+      "file_id": 2015727
+    },
+    {
+      "mod_id": "colored_water",
+      "file_id": 1799936
+    },
+    {
+      "mod_id": "combat_maid",
+      "file_id": 2439794
+    },
+    {
+      "mod_id": "completionistsindex",
+      "file_id": 1704062
+    },
+    {
+      "mod_id": "cookielicious",
+      "file_id": 2055249
+    },
+    {
+      "mod_id": "corn_delight",
+      "file_id": 2149088
+    },
+    {
+      "mod_id": "cornexpansion",
+      "file_id": 1792038
+    },
+    {
+      "mod_id": "crabbersdelight",
+      "file_id": 1593013
+    },
+    {
+      "mod_id": "createbb",
+      "file_id": 1593760
+    },
+    {
+      "mod_id": "crittersandcompanions",
+      "file_id": 1771489
+    },
+    {
+      "mod_id": "croptopia",
+      "file_id": 1531368
+    },
+    {
+      "mod_id": "cushypillows",
+      "file_id": 1935091
+    },
+    {
+      "mod_id": "dankstorage",
+      "file_id": 1991713
+    },
+    {
+      "mod_id": "deathfinder",
+      "file_id": 1847050
+    },
+    {
+      "mod_id": "disenchanting",
+      "file_id": 1799937
+    },
+    {
+      "mod_id": "dungeonsdelight",
+      "file_id": 2082250
+    },
+    {
+      "mod_id": "dustandash",
+      "file_id": 2143159
+    },
+    {
+      "mod_id": "dwdsb",
+      "file_id": 1771498
+    },
+    {
+      "mod_id": "easy_piglins",
+      "file_id": 1602332
+    },
+    {
+      "mod_id": "elementaryores",
+      "file_id": 2149092
+    },
+    {
+      "mod_id": "endertrigon",
+      "file_id": 2221085
+    },
+    {
+      "mod_id": "everlastingabilities",
+      "file_id": 1531369
+    },
+    {
+      "mod_id": "factory_blocks",
+      "file_id": 1865193
+    },
+    {
+      "mod_id": "farm_and_charm",
+      "file_id": 1630637
+    },
+    {
+      "mod_id": "farmersrespite",
+      "file_id": 2741614
+    },
+    {
+      "mod_id": "fishermens_trap",
+      "file_id": 2077076
+    },
+    {
+      "mod_id": "flan",
+      "file_id": 1812273
+    },
+    {
+      "mod_id": "framedblocks",
+      "file_id": 1865198
+    },
+    {
+      "mod_id": "ftboceanmobs",
+      "file_id": 1878044
+    },
+    {
+      "mod_id": "ftbpmapi",
+      "file_id": 1846449
+    },
+    {
+      "mod_id": "ftbstuff",
+      "file_id": 1878043
+    },
+    {
+      "mod_id": "ftbteambases",
+      "file_id": 1849540
+    },
+    {
+      "mod_id": "furniture",
+      "file_id": 1614808
+    },
+    {
+      "mod_id": "geore",
+      "file_id": 2288357
+    },
+    {
+      "mod_id": "globalxp",
+      "file_id": 2347956
+    },
+    {
+      "mod_id": "golemoverhaul",
+      "file_id": 2077147
+    },
+    {
+      "mod_id": "hangglider",
+      "file_id": 1772476
+    },
+    {
+      "mod_id": "holosigns",
+      "file_id": 1865203
+    },
+    {
+      "mod_id": "hpm",
+      "file_id": 1865201
+    },
+    {
+      "mod_id": "illagerinvasion",
+      "file_id": 2493431
+    },
+    {
+      "mod_id": "incubation",
+      "file_id": 2055251
+    },
+    {
+      "mod_id": "integratedrest",
+      "file_id": 2221084
+    },
+    {
+      "mod_id": "inventoryessentials",
+      "file_id": 2001623
+    },
+    {
+      "mod_id": "invtweaks",
+      "file_id": 2001616
+    },
+    {
+      "mod_id": "irons_jewelry",
+      "file_id": 2916543
+    },
+    {
+      "mod_id": "jamlib",
+      "file_id": 2290811
+    },
+    {
+      "mod_id": "jearchaeology",
+      "file_id": 2077079
+    },
+    {
+      "mod_id": "justaraftmod",
+      "file_id": 1851284
+    },
+    {
+      "mod_id": "justdirethings",
+      "file_id": 1878046
+    },
+    {
+      "mod_id": "kobolds",
+      "file_id": 2347958
+    },
+    {
+      "mod_id": "lapidary",
+      "file_id": 1750823
+    },
+    {
+      "mod_id": "little_big_redstone",
+      "file_id": 2299994
+    },
+    {
+      "mod_id": "lolmcbv",
+      "file_id": 1706717
+    },
+    {
+      "mod_id": "lolmcv",
+      "file_id": 1706718
+    },
+    {
+      "mod_id": "luminax",
+      "file_id": 2299995
+    },
+    {
+      "mod_id": "lunaslimes",
+      "file_id": 1588251
+    },
+    {
+      "mod_id": "magnumtorch",
+      "file_id": 1462558
+    },
+    {
+      "mod_id": "moa_science",
+      "file_id": 2175844
+    },
+    {
+      "mod_id": "monsterplus",
+      "file_id": 2347961
+    },
+    {
+      "mod_id": "morered",
+      "file_id": 1991711
+    },
+    {
+      "mod_id": "mowziesmobs",
+      "file_id": 2493430
+    },
+    {
+      "mod_id": "mushroom_villager_trader",
+      "file_id": 2175841
+    },
+    {
+      "mod_id": "mutantmonsters",
+      "file_id": 2493433
+    },
+    {
+      "mod_id": "mutated_items",
+      "file_id": 1704061
+    },
+    {
+      "mod_id": "netmusic",
+      "file_id": 2221083
+    },
+    {
+      "mod_id": "nomowanderer",
+      "file_id": 1772466
+    },
+    {
+      "mod_id": "nuclearcraft",
+      "file_id": 1773551
+    },
+    {
+      "mod_id": "numismatic-overhaul",
+      "file_id": 1857135
+    },
+    {
+      "mod_id": "obtrophies",
+      "file_id": 1865281
+    },
+    {
+      "mod_id": "onlyhammers",
+      "file_id": 2077078
+    },
+    {
+      "mod_id": "outer_end",
+      "file_id": 2221082
+    },
+    {
+      "mod_id": "pet_cemetery",
+      "file_id": 2175842
+    },
+    {
+      "mod_id": "phantasm",
+      "file_id": 2149095
+    },
+    {
+      "mod_id": "pizzadelight",
+      "file_id": 2175845
+    },
+    {
+      "mod_id": "playerplates",
+      "file_id": 1865200
+    },
+    {
+      "mod_id": "plushie_buddies",
+      "file_id": 1710966
+    },
+    {
+      "mod_id": "productivefarming",
+      "file_id": 2299996
+    },
+    {
+      "mod_id": "productivetrees",
+      "file_id": 1531372
+    },
+    {
+      "mod_id": "projectvibrantjourneys",
+      "file_id": 2741615
+    },
+    {
+      "mod_id": "reactivemusic",
+      "file_id": 2175840
+    },
+    {
+      "mod_id": "redstoneclock",
+      "file_id": 1772478
+    },
+    {
+      "mod_id": "refurbished_furniture",
+      "file_id": 1539566
+    },
+    {
+      "mod_id": "rehooked",
+      "file_id": 1772467
+    },
+    {
+      "mod_id": "rftoolsdim",
+      "file_id": 2221088
+    },
+    {
+      "mod_id": "scalinghealth",
+      "file_id": 2149094
+    },
+    {
+      "mod_id": "securitycraft",
+      "file_id": 2299997
+    },
+    {
+      "mod_id": "shineals_prehistoric_expansion",
+      "file_id": 1847051
+    },
+    {
+      "mod_id": "silentgems",
+      "file_id": 2299998
+    },
+    {
+      "mod_id": "simplehats",
+      "file_id": 2493432
+    },
+    {
+      "mod_id": "smallships",
+      "file_id": 1640030
+    },
+    {
+      "mod_id": "solonion",
+      "file_id": 1804568
+    },
+    {
+      "mod_id": "sort_it_out",
+      "file_id": 2288358
+    },
+    {
+      "mod_id": "soundcontroller",
+      "file_id": 1860552
+    },
+    {
+      "mod_id": "spawnermod",
+      "file_id": 1552819
+    },
+    {
+      "mod_id": "spikyspikes",
+      "file_id": 2299999
+    },
+    {
+      "mod_id": "stalwart_dungeons",
+      "file_id": 2741611
+    },
+    {
+      "mod_id": "status",
+      "file_id": 2290787
+    },
+    {
+      "mod_id": "suppsquared",
+      "file_id": 2741616
+    },
+    {
+      "mod_id": "tacz",
+      "file_id": 2221087
+    },
+    {
+      "mod_id": "tameablebeasts",
+      "file_id": 2175843
+    },
+    {
+      "mod_id": "tarotcards",
+      "file_id": 1593761
+    },
+    {
+      "mod_id": "taxtg",
+      "file_id": 2055254
+    },
+    {
+      "mod_id": "telepass",
+      "file_id": 1811601
+    },
+    {
+      "mod_id": "telepastries",
+      "file_id": 1772475
+    },
+    {
+      "mod_id": "the_bumblezone",
+      "file_id": 2149087
+    },
+    {
+      "mod_id": "the_harvest",
+      "file_id": 2347960
+    },
+    {
+      "mod_id": "tombstone",
+      "file_id": 1546731
+    },
+    {
+      "mod_id": "toms_storage",
+      "file_id": 1462561
+    },
+    {
+      "mod_id": "toms_trading_network",
+      "file_id": 1462562
+    },
+    {
+      "mod_id": "transmog",
+      "file_id": 2347957
+    },
+    {
+      "mod_id": "travellersbootsreloaded",
+      "file_id": 1772477
+    },
+    {
+      "mod_id": "ulvcovm",
+      "file_id": 1778394
+    },
+    {
+      "mod_id": "undergarden",
+      "file_id": 2149091
+    },
+    {
+      "mod_id": "unnamedanimalmod",
+      "file_id": 2055252
+    },
+    {
+      "mod_id": "villagersplus",
+      "file_id": 1462559
+    },
+    {
+      "mod_id": "waterballoon",
+      "file_id": 1808967
+    },
+    {
+      "mod_id": "watercollector",
+      "file_id": 1772468
+    },
+    {
+      "mod_id": "wildernature",
+      "file_id": 1622734
+    },
+    {
+      "mod_id": "winterly",
+      "file_id": 1462560
+    },
+    {
+      "mod_id": "xercapaint",
+      "file_id": 1800037
+    },
+    {
+      "mod_id": "xp_synthesiser",
+      "file_id": 1865206
+    },
+    {
+      "mod_id": "xtonesreworked",
+      "file_id": 1865205
+    },
+    {
+      "mod_id": "yungscavebiomes",
+      "file_id": 2055390
+    },
+    {
+      "mod_id": "yuushya",
+      "file_id": 2221086
+    },
+    {
+      "mod_id": "zetter",
+      "file_id": 1603896
+    },
+    {
+      "mod_id": "zettergallery",
+      "file_id": 1604331
+    }
+  ]
+}

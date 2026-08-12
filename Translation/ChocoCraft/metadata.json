@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "chococraft",
+  "display_name": {
+    "en": "ChocoCraft"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "225280"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 98.95,
+      "overall": 98.95
+    },
+    "mod_versions": {
+      "26.1": "chococraft-26.1.2-neoforge-0.17.1.jar"
+    }
+  }
+}

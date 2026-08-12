@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "globalxp",
+  "display_name": {
+    "en": "Global XP"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "268647"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 11.43,
+      "overall": 11.43
+    },
+    "mod_versions": {
+      "26.2": "globalxp-neoforge-26.2-1.13.jar"
+    }
+  }
+}

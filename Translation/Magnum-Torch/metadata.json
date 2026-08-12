@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "magnumtorch",
+  "display_name": {
+    "en": "Magnum Torch"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "593981"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 30.77,
+      "overall": 30.77
+    },
+    "mod_versions": {
+      "26.2": "[NEOFORGE] [26.2.x] v26.2.0"
+    }
+  }
+}

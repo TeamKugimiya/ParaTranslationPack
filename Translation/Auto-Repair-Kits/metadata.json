@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "auto_repair_kit",
+  "display_name": {
+    "en": "Auto Repair Kits"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1154482"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.20": "Auto-Repair-Kits-1.20.1-v1.0.4"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "creativemodetab.onlyhammers": "Only Hammers",
+  "item.onlyhammers.copper_hammer": "Copper Hammer",
+  "item.onlyhammers.diamond_hammer": "Diamond Hammer",
+  "item.onlyhammers.emerald_hammer": "Emerald Hammer",
+  "item.onlyhammers.gold_hammer": "Gold Hammer",
+  "item.onlyhammers.iron_hammer": "Iron Hammer",
+  "item.onlyhammers.lapis_hammer": "Lapis Hammer",
+  "item.onlyhammers.netherite_hammer": "Netherite Hammer",
+  "item.onlyhammers.obsidian_hammer": "Obsidian Hammer",
+  "item.onlyhammers.redstone_hammer": "Redstone Hammer",
+  "item.onlyhammers.stone_hammer": "Stone Hammer",
+  "item.onlyhammers.wooden_hammer": "Wooden Hammer",
+  "key.category.onlyhammers.showoutline": "OnlyHammers",
+  "key.onlyhammers.showoutline": "Enable/Disable Outline"
+}

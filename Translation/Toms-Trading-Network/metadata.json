@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "toms_trading_network",
+  "display_name": {
+    "en": "Tom's Trading Network"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "854496"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "26.2": "[NeoForge] Tom's Trading Network 26.2-0.3.16"
+    }
+  }
+}

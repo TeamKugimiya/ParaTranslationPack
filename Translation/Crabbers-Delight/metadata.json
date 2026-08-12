@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "crabbersdelight",
+  "display_name": {
+    "en": "Crabber's Delight"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "892827"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 62.68,
+      "overall": 62.68
+    },
+    "mod_versions": {
+      "1.21": "crabbersdelight-1.21.1-1.2.6.jar"
+    }
+  }
+}

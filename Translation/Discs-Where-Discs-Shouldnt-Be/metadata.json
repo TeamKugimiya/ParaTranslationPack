@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "dwdsb",
+  "display_name": {
+    "en": "Discs Where Discs Shouldn't Be"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "865592"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.11",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 23.16,
+      "overall": 23.16
+    },
+    "mod_versions": {
+      "1.21": "dwdsb-1.7.0.jar"
+    }
+  }
+}

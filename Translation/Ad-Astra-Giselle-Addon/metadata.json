@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "ad_astra_giselle_addon",
+  "display_name": {
+    "en": "Ad Astra: Giselle Addon"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "714958"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 85.71,
+      "overall": 85.71
+    },
+    "mod_versions": {
+      "1.21": "neoforge-1.21.1-8.0"
+    }
+  }
+}

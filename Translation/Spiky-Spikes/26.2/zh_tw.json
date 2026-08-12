@@ -1,0 +1,17 @@
+{
+  "block.spikyspikes.diamond_spike": "鑽石尖刺",
+  "block.spikyspikes.diamond_spike.description": "被殺死的生物會像被玩家殺死時一樣掉落所有戰利品。可透過鐵砧附加大多數的劍類附魔。",
+  "block.spikyspikes.golden_spike": "金尖刺",
+  "block.spikyspikes.golden_spike.description": "被殺死的生物只會掉落經驗，而不會掉落任何戰利品。",
+  "block.spikyspikes.iron_spike": "鐵尖刺",
+  "block.spikyspikes.iron_spike.description": "被殺死的生物只會掉落一般戰利品，而不會掉落經驗。",
+  "block.spikyspikes.netherite_spike": "獄髓尖刺",
+  "block.spikyspikes.netherite_spike.description": "被殺死的生物會像被玩家殺死時一樣掉落所有戰利品。可透過鐵砧附加大多數的劍類附魔。能抵抗爆炸與凋零 Boss 的破壞。不會對玩家造成傷害。",
+  "block.spikyspikes.stone_spike": "石尖刺",
+  "block.spikyspikes.stone_spike.description": "被殺死的生物不會掉落任何戰利品或經驗。",
+  "block.spikyspikes.wooden_spike": "木尖刺",
+  "block.spikyspikes.wooden_spike.description": "會緩慢地對生物造成傷害，但不會給予致命一擊。",
+  "death.attack.spike": "%1$s 如今安息在一個沒那麼多尖刺的世界",
+  "death.attack.spike.player": "%1$s 在試圖逃離 %2$s 時忽視了一根尖刺",
+  "itemGroup.spikyspikes.main": "尖銳尖刺"
+}

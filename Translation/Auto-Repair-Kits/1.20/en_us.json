@@ -1,0 +1,11 @@
+{
+  "auto_repair_kit.charge_mats": "Items that can charge the kit:",
+  "auto_repair_kit.charges": "Charges: %1$s / %2$s",
+  "auto_repair_kit.name": "Auto Repair Kits",
+  "auto_repair_kit.press_shift": "Press [Shift] to see how to charge the kit.",
+  "item.auto_repair_kit.diamond_kit": "Diamond Repair Kit",
+  "item.auto_repair_kit.gold_kit": "Gold Repair Kit",
+  "item.auto_repair_kit.iron_kit": "Iron Repair Kit",
+  "item.auto_repair_kit.leather_kit": "Leather Repair Kit",
+  "item.auto_repair_kit.netherite_kit": "Netherite Repair Kit"
+}

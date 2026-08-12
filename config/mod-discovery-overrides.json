@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "overrides": {
+    "astrocraft": {
+      "source": "curseforge",
+      "project_id": "1010757",
+      "game_version": "1.21.4",
+      "loader": "fabric",
+      "mod_id": "astrocraft"
+    },
+    "bibliocraft": {
+      "source": "curseforge",
+      "project_id": "1122260",
+      "game_version": "26.1.2",
+      "loader": "neoforge",
+      "mod_id": "bibliocraft"
+    },
+    "invtweaks": {
+      "source": "curseforge",
+      "project_id": "976858",
+      "game_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "invtweaks"
+    },
+    "justdirethings": {
+      "source": "curseforge",
+      "project_id": "1002348",
+      "game_version": "26.1.2",
+      "loader": "neoforge",
+      "mod_id": "justdirethings"
+    },
+    "securitycraft": {
+      "source": "curseforge",
+      "project_id": "64760",
+      "game_version": "26.2",
+      "loader": "neoforge",
+      "mod_id": "securitycraft"
+    },
+    "tombstone": {
+      "source": "curseforge",
+      "project_id": "243707",
+      "game_version": "26.2",
+      "loader": "neoforge",
+      "mod_id": "tombstone"
+    },
+    "aethersdelight": {
+      "source": "modrinth",
+      "project_id": "XUztKPS9",
+      "game_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "aethersdelight"
+    },
+    "ars_caelumjson": {
+      "source": "curseforge",
+      "project_id": "821651",
+      "game_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "ars_caelum"
+    },
+    "cobblegengalore": {
+      "source": "curseforge",
+      "project_id": "1108467",
+      "game_version": "26.1.2",
+      "loader": "neoforge",
+      "mod_id": "cobblegengalore"
+    },
+    "collectorsreap": {
+      "source": "curseforge",
+      "project_id": "807101",
+      "game_version": "1.20.1",
+      "loader": "neoforge",
+      "mod_id": "collectorsreap"
+    },
+    "completionistsindex": {
+      "source": "curseforge",
+      "project_id": "852667",
+      "game_version": "26.2",
+      "loader": "neoforge",
+      "mod_id": "completionistsindex"
+    },
+    "cornexpansion": {
+      "source": "curseforge",
+      "project_id": "1038740",
+      "game_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "cornexpansion"
+    },
+    "cushypillows": {
+      "source": "curseforge",
+      "project_id": "1087650",
+      "game_version": "1.21.1",
+      "loader": "fabric",
+      "mod_id": "cushypillows"
+    },
+    "dungeonsdelight": {
+      "source": "curseforge",
+      "project_id": "1258923",
+      "game_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "dungeonsdelight"
+    },
+    "dustandash": {
+      "source": "curseforge",
+      "project_id": "972493",
+      "game_version": "1.20.1",
+      "loader": "forge",
+      "mod_id": "dustandash"
+    },
+    "endertrigon": {
+      "source": "curseforge",
+      "project_id": "662563",
+      "game_version": "1.20.6",
+      "loader": "neoforge",
+      "mod_id": "endertrigon"
+    },
+    "ftbpmapi": {
+      "source": "curseforge",
+      "project_id": "1197864",
+      "game_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "ftbpmapi"
+    },
+    "ftbteambases": {
+      "source": "curseforge",
+      "project_id": "1197857",
+      "game_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "ftbteambases"
+    },
+    "globalxp": {
+      "source": "curseforge",
+      "project_id": "268647",
+      "game_version": "26.2",
+      "loader": "neoforge",
+      "mod_id": "globalxp"
+    },
+    "jearchaeology": {
+      "source": "curseforge",
+      "project_id": "890755",
+      "game_version": "26.1.2",
+      "loader": "neoforge",
+      "mod_id": "jearchaeology"
+    },
+    "lapidary": {
+      "source": "curseforge",
+      "project_id": "610032",
+      "game_version": "1.20.1",
+      "loader": "forge",
+      "mod_id": "lapidary"
+    },
+    "lolmcbv": {
+      "source": "curseforge",
+      "project_id": "1058433",
+      "game_version": "26.2",
+      "loader": "fabric",
+      "mod_id": "lolmcbv"
+    },
+    "lolmcv": {
+      "source": "curseforge",
+      "project_id": "858032",
+      "game_version": "26.2",
+      "loader": "neoforge",
+      "mod_id": "lolmcv"
+    },
+    "lunaslimes": {
+      "source": "curseforge",
+      "project_id": "775534",
+      "game_version": "26.2",
+      "loader": "fabric",
+      "mod_id": "lunaslimes"
+    },
+    "solonion": {
+      "source": "curseforge",
+      "project_id": "878047",
+      "game_version": "26.2",
+      "loader": "neoforge",
+      "mod_id": "solonion"
+    },
+    "soundcontroller": {
+      "source": "curseforge",
+      "project_id": "888709",
+      "game_version": "1.20.1",
+      "loader": "fabric",
+      "mod_id": "soundcontroller"
+    },
+    "spawnermod": {
+      "source": "curseforge",
+      "project_id": "321663",
+      "game_version": "1.21.1",
+      "loader": "fabric",
+      "mod_id": "spawnermod"
+    },
+    "suppsquared": {
+      "source": "curseforge",
+      "project_id": "838411",
+      "game_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "suppsquared"
+    },
+    "tameablebeasts": {
+      "source": "curseforge",
+      "project_id": "646425",
+      "game_version": "1.20.1",
+      "loader": "neoforge",
+      "mod_id": "tameablebeasts"
+    },
+    "travellersbootsreloaded": {
+      "source": "curseforge",
+      "project_id": "321996",
+      "game_version": "1.20.1",
+      "loader": "neoforge",
+      "mod_id": "travellersbootsreloaded"
+    },
+    "ulvcovm": {
+      "source": "curseforge",
+      "project_id": "984851",
+      "game_version": "1.20.1",
+      "loader": "forge",
+      "mod_id": "ulvcovm"
+    },
+    "unnamedanimalmod": {
+      "source": "curseforge",
+      "project_id": "495972",
+      "game_version": "1.16.5",
+      "loader": "forge",
+      "mod_id": "unnamedanimalmod"
+    },
+    "waterballoon": {
+      "source": "curseforge",
+      "project_id": "1037173",
+      "game_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "waterballoon"
+    },
+    "watercollector": {
+      "source": "curseforge",
+      "project_id": "1016115",
+      "game_version": "1.20.1",
+      "loader": "neoforge",
+      "mod_id": "watercollector"
+    },
+    "zettergallery": {
+      "source": "curseforge",
+      "project_id": "618183",
+      "game_version": "1.20.1",
+      "loader": "neoforge",
+      "mod_id": "zettergallery"
+    },
+    "alexsdelight": {
+      "source": "curseforge",
+      "project_id": "556448",
+      "game_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "alexsdelight"
+    },
+    "backpacked": {
+      "source": "curseforge",
+      "project_id": "352835",
+      "game_version": "26.1.2",
+      "loader": "neoforge",
+      "mod_id": "backpacked"
+    },
+    "croptopia": {
+      "source": "curseforge",
+      "project_id": "415438",
+      "game_version": "26.2",
+      "loader": "neoforge",
+      "mod_id": "croptopia"
+    },
+    "death": {
+      "source": "curseforge",
+      "project_id": "327108",
+      "game_version": "26.2",
+      "loader": "neoforge",
+      "mod_id": "deathfinder"
+    },
+    "everlastingabilitie": {
+      "source": "curseforge",
+      "project_id": "248353",
+      "game_version": "26.2",
+      "loader": "neoforge",
+      "mod_id": "everlastingabilities"
+    },
+    "flan": {
+      "source": "curseforge",
+      "project_id": "404578",
+      "game_version": "26.1.2",
+      "loader": "fabric",
+      "mod_id": "flan",
+      "manual_lang_source": {
+        "type": "github",
+        "repository": "Flemmli97/Flan",
+        "ref": "26.1",
+        "commit": "4326d3caaabec3c6fbb80e3bcdaf24c7631407c0",
+        "path": "common/src/generated/resources/data/flan/lang/en_us.json"
+      }
+    },
+    "mushroom_villager": {
+      "source": "curseforge",
+      "project_id": "983378",
+      "game_version": "26.1.2",
+      "loader": "neoforge",
+      "mod_id": "mushroom_villager_trader"
+    },
+    "nuclearcraft": {
+      "source": "curseforge",
+      "project_id": "840010",
+      "game_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "nuclearcraft"
+    },
+    "numismatic_overhaul": {
+      "source": "curseforge",
+      "project_id": "568316",
+      "game_version": "1.21.1",
+      "loader": "fabric",
+      "mod_id": "numismatic-overhaul"
+    },
+    "obtrophies": {
+      "source": "curseforge",
+      "project_id": "683319",
+      "game_version": "1.21.1",
+      "loader": "neoforge",
+      "mod_id": "obtrophies"
+    },
+    "reactive_music": {
+      "source": "curseforge",
+      "project_id": "960382",
+      "game_version": "1.21.11",
+      "loader": "fabric",
+      "mod_id": "reactivemusic"
+    },
+    "smallships": {
+      "source": "curseforge",
+      "project_id": "450659",
+      "game_version": "1.21.4",
+      "loader": "neoforge",
+      "mod_id": "smallships"
+    },
+    "tacz": {
+      "source": "curseforge",
+      "project_id": "1028108",
+      "game_version": "1.20.1",
+      "loader": "forge",
+      "mod_id": "tacz"
+    }
+  }
+}

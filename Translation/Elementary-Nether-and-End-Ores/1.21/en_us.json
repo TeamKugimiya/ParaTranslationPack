@@ -1,0 +1,17 @@
+{
+  "block.elementaryores.ore_coal_end": "End Coal Ore",
+  "block.elementaryores.ore_coal_nether": "Nether Coal Ore",
+  "block.elementaryores.ore_copper_end": "End Copper Ore",
+  "block.elementaryores.ore_copper_nether": "Nether Copper Ore",
+  "block.elementaryores.ore_diamond_end": "End Diamond Ore",
+  "block.elementaryores.ore_diamond_nether": "Nether Diamond Ore",
+  "block.elementaryores.ore_emerald_end": "End Emerald Ore",
+  "block.elementaryores.ore_emerald_nether": "Nether Emerald Ore",
+  "block.elementaryores.ore_ender_end": "Ender Ore",
+  "block.elementaryores.ore_ghast_nether": "Nether Ghast Ore",
+  "block.elementaryores.ore_iron_nether": "Nether Iron Ore",
+  "block.elementaryores.ore_lapis_end": "End Lapis Ore",
+  "block.elementaryores.ore_lapis_nether": "Nether Lapis Ore",
+  "block.elementaryores.ore_redstone_end": "End Redstone Ore",
+  "itemGroup.elementaryores": "Elementary Ores"
+}

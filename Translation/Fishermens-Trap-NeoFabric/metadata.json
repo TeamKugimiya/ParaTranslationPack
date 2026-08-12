@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "fishermens_trap",
+  "display_name": {
+    "en": "Fishermen's Trap [Neo/Fabric]"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "ltRggnDx"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "3.1.0"
+    }
+  }
+}

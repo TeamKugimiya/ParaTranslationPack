@@ -1,0 +1,23 @@
+{
+  "block.mutated_items.invisible_redstone": "隱形紅石",
+  "entity.mutated_items.cauldron_bud": "鍋釜伴獸",
+  "entity.mutated_items.dragon_breath_man": "龍之凝息",
+  "entity.mutated_items.fire_fox": "火狐",
+  "entity.mutated_items.furnace_golem": "熔爐魔像",
+  "entity.mutated_items.living_totem": "生之圖騰",
+  "entity.mutated_items.quartz_crab": "石英螃蟹",
+  "entity.mutated_items.redstone_bug": "紅石蟲",
+  "entity.mutated_items.shear_ant": "剪刀蟻",
+  "item.mutated_items.cauldron_bud_spawn_egg": "鍋釜伴獸",
+  "item.mutated_items.dragon_breath_man_spawn_egg": "龍之凝息",
+  "item.mutated_items.fire_fox_spawn_egg": "火狐",
+  "item.mutated_items.furnace_golem_spawn_egg": "熔爐魔像",
+  "item.mutated_items.item_mutation_icon": "物品異變圖示",
+  "item.mutated_items.living_totem_spawn_egg": "生之圖騰",
+  "item.mutated_items.quartz_crab_spawn_egg": "石英螃蟹",
+  "item.mutated_items.redstone_bug_spawn_egg": "紅石蟲",
+  "item.mutated_items.shear_ant_spawn_egg": "剪刀蟻",
+  "subtitles.living_totem_ambient": "生之圖騰嘀咕聲",
+  "subtitles.living_totem_death": "生之圖騰死亡",
+  "subtitles.living_totem_hurt": "生之圖騰受傷"
+}

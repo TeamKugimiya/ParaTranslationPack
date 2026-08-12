@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "furniture",
+  "display_name": {
+    "en": "[Let's Do] Furniture"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "3JQDJrYW"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 47.72,
+      "overall": 47.72
+    },
+    "mod_versions": {
+      "1.21": "1.1.4"
+    }
+  }
+}

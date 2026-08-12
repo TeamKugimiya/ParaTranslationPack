@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "the_harvest",
+  "display_name": {
+    "en": "The Harvest"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "sV6ykEOL"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.20": "1.1.1"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "chisel",
+  "display_name": {
+    "en": "Chisel Reborn"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "4KWv7wbN"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 0,
+      "overall": 0
+    },
+    "mod_versions": {
+      "26.2": "neoforge-26.1.2-2.2.1"
+    }
+  }
+}

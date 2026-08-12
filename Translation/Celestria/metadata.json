@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "celestria",
+  "display_name": {
+    "en": "Celestria"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1085811"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 95.83,
+      "overall": 95.83
+    },
+    "mod_versions": {
+      "1.21": "Celestria 2.0.0 - NeoForge 1.21"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "mushroom_villager_trader",
+  "display_name": {
+    "en": "Mushroom Villager Trader"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "983378"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 82.35,
+      "overall": 82.35
+    },
+    "mod_versions": {
+      "26.1": "mushroom_villager_trader-2.0.0-neoforge-26.1.2.jar"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "gui.status.title": "設定你的狀態",
+  "key.status_gui": "開啟狀態介面",
+  "message.status.change_status": "別忘了設定你的狀態",
+  "message.status.do_not_disturb": "勿擾",
+  "message.status.incompatible_version": "你的狀態模組與伺服器版本不相容。\n請安裝 %s 版本的 %s。",
+  "message.status.mod_name": "狀態",
+  "message.status.neutral": "無狀態",
+  "message.status.no_availability": "忙碌",
+  "message.status.no_sleep": "熬夜中",
+  "message.status.open": "空閒",
+  "message.status.recording": "錄製中",
+  "message.status.set_status": "開啟狀態介面並設定你的狀態",
+  "message.status.streaming": "直播中"
+}

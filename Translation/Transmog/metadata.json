@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "transmog",
+  "display_name": {
+    "en": "Transmog"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "848032"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 96,
+      "overall": 96
+    },
+    "mod_versions": {
+      "26.2": "[NeoForge] Transmog 1.8.0+26.2"
+    }
+  }
+}

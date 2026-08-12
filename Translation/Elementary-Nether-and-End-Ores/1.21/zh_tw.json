@@ -1,0 +1,17 @@
+{
+  "block.elementaryores.ore_coal_end": "終界煤礦",
+  "block.elementaryores.ore_coal_nether": "地獄煤礦",
+  "block.elementaryores.ore_copper_end": "終界銅礦",
+  "block.elementaryores.ore_copper_nether": "地獄銅礦",
+  "block.elementaryores.ore_diamond_end": "終界鑽石礦",
+  "block.elementaryores.ore_diamond_nether": "地獄鑽石礦",
+  "block.elementaryores.ore_emerald_end": "終界綠寶石礦",
+  "block.elementaryores.ore_emerald_nether": "地獄綠寶石礦",
+  "block.elementaryores.ore_ender_end": "終界珍珠礦",
+  "block.elementaryores.ore_ghast_nether": "地獄幽靈礦",
+  "block.elementaryores.ore_iron_nether": "地獄鐵礦",
+  "block.elementaryores.ore_lapis_end": "終界青金石礦",
+  "block.elementaryores.ore_lapis_nether": "地獄青金石礦",
+  "block.elementaryores.ore_redstone_end": "終界紅石礦",
+  "itemGroup.elementaryores": "基本礦物"
+}

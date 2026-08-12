@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "mowziesmobs",
+  "display_name": {
+    "en": "Mowzie's Mobs"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "BFbX9xcm"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 86.56,
+      "overall": 86.56
+    },
+    "mod_versions": {
+      "1.21": "1.8.2"
+    }
+  }
+}

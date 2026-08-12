@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "morered",
+  "display_name": {
+    "en": "More Red"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "UxYNfnfx"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.20": "4.0.0.4"
+    }
+  }
+}

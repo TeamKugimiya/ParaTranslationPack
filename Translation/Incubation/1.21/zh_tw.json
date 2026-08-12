@@ -1,0 +1,19 @@
+{
+  "block.incubation.chicken_egg_crate": "箱裝雞蛋",
+  "block.incubation.hay_chicken_nest": "乾草雞窩",
+  "block.incubation.hay_duck_nest": "乾草鴨子窩",
+  "block.incubation.hay_nest": "乾草窩",
+  "block.incubation.hay_turkey_nest": "乾草火雞窩",
+  "block.incubation.turtle_egg_crate": "箱裝海龜蛋",
+  "block.incubation.twig_chicken_nest": "樹枝雞窩",
+  "block.incubation.twig_duck_nest": "樹枝鴨子窩",
+  "block.incubation.twig_nest": "樹枝窩",
+  "block.incubation.twig_turkey_nest": "樹枝火雞窩",
+  "item.incubation.chicken_egg": "雞蛋",
+  "item.incubation.fried_egg": "荷包蛋",
+  "item.incubation.scrambled_eggs": "炒蛋",
+  "painting.incubation.culprit.author": "five",
+  "painting.incubation.culprit.title": "Culprit",
+  "painting.incubation.egg.author": "five",
+  "painting.incubation.egg.title": "Egg"
+}

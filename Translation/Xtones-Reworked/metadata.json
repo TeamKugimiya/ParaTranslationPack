@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "xtonesreworked",
+  "display_name": {
+    "en": "Xtones Reworked"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "694231"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.10",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 0,
+      "overall": 0
+    },
+    "mod_versions": {
+      "1.21": "xtonesreworked-1.0.0-1.21.9-1.21.x.jar"
+    }
+  }
+}

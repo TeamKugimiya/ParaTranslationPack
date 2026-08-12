@@ -1,0 +1,22 @@
+{
+  "advancements.pet_cemetery.nether.cured_zombie_pet.description": "虛弱並治癒一隻殭屍寵物",
+  "advancements.pet_cemetery.nether.cured_zombie_pet.title": "殭屍獸醫師",
+  "advancements.pet_cemetery.nether.respawned_pet.description": "對著重生錨使用寵物項圈，使寵物復活",
+  "advancements.pet_cemetery.nether.respawned_pet.title": "科學怪犬",
+  "advancements.pet_cemetery.nether.respawned_zombie_pet.description": "讓殭屍寵物重生為骷髏姿態",
+  "advancements.pet_cemetery.nether.respawned_zombie_pet.title": "死神",
+  "entity.pet_cemetery.skeleton_cat": "骷髏貓",
+  "entity.pet_cemetery.skeleton_parrot": "骷髏鸚鵡",
+  "entity.pet_cemetery.skeleton_wolf": "骷髏狼",
+  "entity.pet_cemetery.zombie_cat": "殭屍貓",
+  "entity.pet_cemetery.zombie_parrot": "殭屍鸚鵡",
+  "entity.pet_cemetery.zombie_wolf": "殭屍狼",
+  "item.pet_cemetery.pet_collar": "寵物項圈",
+  "item.pet_cemetery.skeleton_cat_spawn_egg": "骷髏貓 生怪蛋",
+  "item.pet_cemetery.skeleton_parrot_spawn_egg": "骷髏鸚鵡 生怪蛋",
+  "item.pet_cemetery.skeleton_wolf_spawn_egg": "骷髏狼 生怪蛋",
+  "item.pet_cemetery.zombie_cat_spawn_egg": "殭屍貓 生怪蛋",
+  "item.pet_cemetery.zombie_parrot_spawn_egg": "殭屍鸚鵡 生怪蛋",
+  "item.pet_cemetery.zombie_wolf_spawn_egg": "殭屍狼 生怪蛋",
+  "tooltip.pet_cemetery.baby": "幼年"
+}

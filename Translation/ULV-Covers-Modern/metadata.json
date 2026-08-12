@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "ulvcovm",
+  "display_name": {
+    "en": "ULV Covers Modern"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "984851"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.20": "ulvcovm-0.3.2.jar"
+    }
+  }
+}

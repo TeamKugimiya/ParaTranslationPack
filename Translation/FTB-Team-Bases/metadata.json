@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "ftbteambases",
+  "display_name": {
+    "en": "FTB Team Bases"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1197857"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 90.24,
+      "overall": 90.24
+    },
+    "mod_versions": {
+      "1.21": "[NEOFORGE] FTB Team Bases 21.1.17"
+    }
+  }
+}

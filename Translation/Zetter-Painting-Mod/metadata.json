@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "zetter",
+  "display_name": {
+    "en": "Zetter — Painting Mod"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "465532"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 95.15,
+      "overall": 95.15
+    },
+    "mod_versions": {
+      "1.20": "zetter-1.20.1-0.21.7.jar"
+    }
+  }
+}

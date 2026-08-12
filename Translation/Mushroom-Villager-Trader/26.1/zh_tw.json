@@ -1,0 +1,19 @@
+{
+  "block.mushroom_villager_trader.mushroom_trader_block": "蘑菇商人方塊",
+  "block.mushroom_villager_trader.mushroom_trader_block_2": "蘑菇商人方塊 2",
+  "entity.minecraft.villager.mushroom_villager_trader.mushroom_trader": "蘑菇商人",
+  "entity.minecraft.villager.mushroom_villager_trader.mushroom_trader_misc": "Mushroom Trader Misc",
+  "entity.villager.mushroom_villager_trader.mushroom_trader": "Mushroom Trader",
+  "entity.villager.mushroom_villager_trader.mushroom_trader_misc": "Mushroom Trader Misc",
+  "item.mushroom_villager_trader.death_cap_mushroom": "毒鵝膏",
+  "item.mushroom_villager_trader.magic_mushroom_stew": "魔法蘑菇燉湯",
+  "item.mushroom_villager_trader.mushroom_armor_boots": "蘑菇盔甲靴子",
+  "item.mushroom_villager_trader.mushroom_armor_chestplate": "蘑菇胸甲",
+  "item.mushroom_villager_trader.mushroom_armor_helmet": "蘑菇頭盔",
+  "item.mushroom_villager_trader.mushroom_armor_leggings": "蘑菇護腿",
+  "item.mushroom_villager_trader.mushroom_axe": "蘑菇斧",
+  "item.mushroom_villager_trader.mushroom_soup": "蘑菇燉湯",
+  "item.mushroom_villager_trader.mushroom_sword": "蘑菇劍",
+  "item.mushroom_villager_trader.mushroom_trader_block": "蘑菇商人方塊",
+  "item.mushroom_villager_trader.mushroom_trader_block_2": "蘑菇商人方塊 2"
+}

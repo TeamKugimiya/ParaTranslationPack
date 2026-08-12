@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "cobblegengalore",
+  "display_name": {
+    "en": "Cobblegen Galore"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1108467"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 90,
+      "overall": 90
+    },
+    "mod_versions": {
+      "26.1": "cobblegengalore-26.1.2-0.2.9.jar"
+    }
+  }
+}

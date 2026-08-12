@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "framedblocks",
+  "display_name": {
+    "en": "FramedBlocks"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "441647"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 54.9,
+      "overall": 54.9
+    },
+    "mod_versions": {
+      "26.1": "FramedBlocks-11.3.3.jar"
+    }
+  }
+}

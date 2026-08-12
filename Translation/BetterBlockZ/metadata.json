@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "betterblockz",
+  "display_name": {
+    "en": "BetterBlockZ"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1361873"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 0,
+      "overall": 0
+    },
+    "mod_versions": {
+      "26.1": "betterblockz-0.3.3-26.1.2-neoforge.jar"
+    }
+  }
+}

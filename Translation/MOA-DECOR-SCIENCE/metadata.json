@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "moa_science",
+  "display_name": {
+    "en": "MOA DECOR: SCIENCE"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "701517"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.8",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 1.32,
+      "overall": 1.32
+    },
+    "mod_versions": {
+      "1.21": "MOAdecor SCIENCE 1.21.8.A.jar"
+    }
+  }
+}

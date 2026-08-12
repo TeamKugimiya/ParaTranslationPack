@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "taxtg",
+  "display_name": {
+    "en": "Tax' Tree Giant"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1038018"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.8",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "Tax' Tree Giant 2.0.1"
+    }
+  }
+}

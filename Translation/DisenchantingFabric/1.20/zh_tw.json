@@ -1,0 +1,7 @@
+{
+  "block.disenchanting.disenchanter": "退魔台",
+  "block.disenchanting.disenchanter.tooltip": "將物品上的附魔去除並寫入進書。",
+  "gui.disenchanting.disenchanter.cost": "消耗",
+  "itemGroup.disenchanting.disenchanting": "Disenchanting",
+  "tabs.disenchanting.tab": "退魔"
+}

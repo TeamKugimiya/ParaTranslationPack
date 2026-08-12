@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "xercapaint",
+  "display_name": {
+    "en": "Joy of Painting"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "YOs4tZea"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 66.67,
+      "overall": 66.67
+    },
+    "mod_versions": {
+      "26.2": "26.2-1.0.0"
+    }
+  }
+}

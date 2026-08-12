@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "lolmcv",
+  "display_name": {
+    "en": "More Chests Variants (MCV)"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "858032"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 80,
+      "overall": 80
+    },
+    "mod_versions": {
+      "26.2": "More Chests Variants 1.5.14 + 26.1.1 Neo"
+    }
+  }
+}

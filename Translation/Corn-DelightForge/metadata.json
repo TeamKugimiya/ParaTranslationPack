@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "corn_delight",
+  "display_name": {
+    "en": "Corn Delight[Forge]"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "577805"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 98.21,
+      "overall": 98.21
+    },
+    "mod_versions": {
+      "1.21": "corn_delight-1.2.10-1.21.1.jar"
+    }
+  }
+}

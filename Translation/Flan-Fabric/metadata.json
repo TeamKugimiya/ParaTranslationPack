@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "flan",
+  "display_name": {
+    "en": "Flan (Fabric)"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "404578"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 1.16,
+      "overall": 1.16
+    },
+    "mod_versions": {
+      "26.1": "flan-26.1.2-1.12.7-fabric.jar"
+    }
+  }
+}

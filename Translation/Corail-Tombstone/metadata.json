@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "tombstone",
+  "display_name": {
+    "en": "Corail Tombstone"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "243707"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 62.08,
+      "overall": 62.08
+    },
+    "mod_versions": {
+      "26.2": "Corail Tombstone 9.9.3 for 26.2 [NeoForge]"
+    }
+  }
+}

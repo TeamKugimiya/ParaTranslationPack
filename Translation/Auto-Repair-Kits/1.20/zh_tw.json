@@ -1,0 +1,11 @@
+{
+  "auto_repair_kit.charge_mats": "可補充修理值的物品：",
+  "auto_repair_kit.charges": "可用修理值：%1$s / %2$s",
+  "auto_repair_kit.name": "自動修理袋",
+  "auto_repair_kit.press_shift": "按住「Shift」來查看如何補充修理值。",
+  "item.auto_repair_kit.diamond_kit": "鑽石製修理袋",
+  "item.auto_repair_kit.gold_kit": "金製修理袋",
+  "item.auto_repair_kit.iron_kit": "鐵製修理袋",
+  "item.auto_repair_kit.leather_kit": "皮革修理袋",
+  "item.auto_repair_kit.netherite_kit": "獄髓修理袋"
+}

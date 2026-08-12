@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "collectorsreap",
+  "display_name": {
+    "en": "Collector's Reap"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "807101"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 49.76,
+      "overall": 49.76
+    },
+    "mod_versions": {
+      "1.20": "Collector's Reap 1.5.5 - 1.20.1"
+    }
+  }
+}

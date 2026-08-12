@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "reactivemusic",
+  "display_name": {
+    "en": "Reactive Music"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "960382"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.11",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "1.3.5+1.21.11-fabric"
+    }
+  }
+}

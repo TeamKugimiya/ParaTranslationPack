@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "factory_blocks",
+  "display_name": {
+    "en": "Factory Blocks"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "ht0eTMEs"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "26.2": "neoforge-26.2-1.4.2"
+    }
+  }
+}

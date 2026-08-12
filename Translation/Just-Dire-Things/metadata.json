@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "justdirethings",
+  "display_name": {
+    "en": "Just Dire Things"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1002348"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 97.76,
+      "overall": 97.76
+    },
+    "mod_versions": {
+      "26.1": "JustDireThings-1.6.11"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "lapidary",
+  "display_name": {
+    "en": "Lapidarist"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "610032"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 99.07,
+      "overall": 99.07
+    },
+    "mod_versions": {
+      "1.20": "lapidary 3.3 (1.20.1)"
+    }
+  }
+}

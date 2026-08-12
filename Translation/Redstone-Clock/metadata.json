@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "redstoneclock",
+  "display_name": {
+    "en": "Redstone Clock"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1028187"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.20": "Redstone Clock v1.0.0"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "status",
+  "display_name": {
+    "en": "Status"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "b93awgkg"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "26.2": "fabric-1.1.0+26.2"
+    }
+  }
+}

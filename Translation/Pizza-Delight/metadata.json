@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "pizzadelight",
+  "display_name": {
+    "en": "Pizza Delight"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "6VTyLLiG"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "1.21.1-2.0.2"
+    }
+  }
+}

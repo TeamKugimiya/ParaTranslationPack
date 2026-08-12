@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "hpm",
+  "display_name": {
+    "en": "Swashbucklers!"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "746320"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.8",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 0,
+      "overall": 0
+    },
+    "mod_versions": {
+      "1.21": "Swashbucklers! V2.6.6B 1.21.8 "
+    }
+  }
+}

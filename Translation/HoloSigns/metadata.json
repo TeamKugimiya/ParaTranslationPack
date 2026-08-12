@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "holosigns",
+  "display_name": {
+    "en": "HoloSigns"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1167427"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 1.45,
+      "overall": 1.45
+    },
+    "mod_versions": {
+      "26.1": "HoloSigns-26.1-4.0.0.jar"
+    }
+  }
+}

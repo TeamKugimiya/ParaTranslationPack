@@ -1,0 +1,16 @@
+{
+  "death.message.dimension": "%s  維度中",
+  "death.message.distance.blocks": "距離 %s 格方塊",
+  "death.message.distance.close": "很近",
+  "death.message.distance.dimension": "很遠",
+  "death.message.position": "位於 %s",
+  "death.message.teleport.already_used": "已傳送至死亡點",
+  "death.message.teleport.missing_permissions": "你沒有執行傳送的必要權限",
+  "death.message.teleport.not_most_recent": "這不是你最近一次的死亡點",
+  "death.message.teleport.not_yours": "這不是你的死亡點",
+  "death.message.teleport.other_problem": "此伺服器不允許傳送至死亡點",
+  "death.message.teleport.too_long_ago": "此次死亡發生在很久以前",
+  "death.screen.position": "X：%s Y：%s Z：%s",
+  "item.minecraft.recovery_compass.dimension": "維度：%s",
+  "item.minecraft.recovery_compass.position": "X：%s Y：%s Z：%s"
+}

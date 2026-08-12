@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "absentbydesign",
+  "display_name": {
+    "en": "Absent by Design"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "305840"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 93.57,
+      "overall": 93.57
+    },
+    "mod_versions": {
+      "26.1": "Absent by Design 26.1.2-1.9.2"
+    }
+  }
+}

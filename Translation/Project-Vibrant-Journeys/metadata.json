@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "projectvibrantjourneys",
+  "display_name": {
+    "en": "Project: Vibrant Journeys"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "300297"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 0,
+      "overall": 0
+    },
+    "mod_versions": {
+      "1.21": "projectvibrantjourneys-1.21.1-7.0.9.jar"
+    }
+  }
+}

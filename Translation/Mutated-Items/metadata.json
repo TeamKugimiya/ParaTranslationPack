@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "mutated_items",
+  "display_name": {
+    "en": "Mutated Items"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "855771"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.21": "Mutated-Items-2.0.2-neoforge-1.21.1.jar"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "unnamedanimalmod",
+  "display_name": {
+    "en": "Unnamed Animal Mod"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "495972"
+  },
+  "contents": {
+    "tiers": {
+      "1.16": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.16.5",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.16": 3.62,
+      "overall": 3.62
+    },
+    "mod_versions": {
+      "1.16": "unnamedanimalmod-1.0.3.jar"
+    }
+  }
+}

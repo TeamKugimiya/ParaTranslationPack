@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "advancednetherite",
+  "display_name": {
+    "en": "Advanced Netherite"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "CFX9ftUJ"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 94.83,
+      "overall": 94.83
+    },
+    "mod_versions": {
+      "26.2": "neoforge-2.4.2-mc26.2"
+    }
+  }
+}

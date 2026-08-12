@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "shineals_prehistoric_expansion",
+  "display_name": {
+    "en": "ShineaL's Prehistoric Expansion"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "909176"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.8",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 37.19,
+      "overall": 37.19
+    },
+    "mod_versions": {
+      "1.21": "PE Version 1.5.3"
+    }
+  }
+}

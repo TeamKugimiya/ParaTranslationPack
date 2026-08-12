@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "endertrigon",
+  "display_name": {
+    "en": "Ender Trigon"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "662563"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.20.6",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.20": "endertrigon-1.20.6-1.0-beta-all.jar"
+    }
+  }
+}

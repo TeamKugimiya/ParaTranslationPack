@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "irons_jewelry",
+  "display_name": {
+    "en": "Iron's Gems 'n Jewelry"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1101111"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 99.24,
+      "overall": 99.24
+    },
+    "mod_versions": {
+      "26.1": "irons_jewelry-26.1.2-2.0.2.1.jar"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "dankstorage",
+  "display_name": {
+    "en": "Dank Storage"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "335673"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 87.21,
+      "overall": 87.21
+    },
+    "mod_versions": {
+      "26.1": "dankstorage-neoforge-26.1-0.jar"
+    }
+  }
+}

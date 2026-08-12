@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "productivetrees",
+  "display_name": {
+    "en": "Productive Trees"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "867074"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 92.45,
+      "overall": 92.45
+    },
+    "mod_versions": {
+      "26.1": "productivetrees-26.1.2-1.2.1.jar"
+    }
+  }
+}

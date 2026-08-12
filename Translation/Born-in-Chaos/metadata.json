@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "born_in_chaos_v1",
+  "display_name": {
+    "en": "Born in Chaos"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "1kcHy4de"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 68.27,
+      "overall": 68.27
+    },
+    "mod_versions": {
+      "1.21": "1.7.6"
+    }
+  }
+}

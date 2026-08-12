@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "sort_it_out",
+  "display_name": {
+    "en": "Sort It Out!"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1215281"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 86.67,
+      "overall": 86.67
+    },
+    "mod_versions": {
+      "26.2": "V1.5.0+26.2.x (NeoForge 26.2)"
+    }
+  }
+}

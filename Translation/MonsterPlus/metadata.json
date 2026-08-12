@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "monsterplus",
+  "display_name": {
+    "en": "MonsterPlus"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "Qekm44BX"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 43.84,
+      "overall": 43.84
+    },
+    "mod_versions": {
+      "1.21": "1.2.0.0"
+    }
+  }
+}

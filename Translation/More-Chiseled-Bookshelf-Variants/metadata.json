@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "lolmcbv",
+  "display_name": {
+    "en": "More Chiseled Bookshelf Variants"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1058433"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "fabric"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 90.91,
+      "overall": 90.91
+    },
+    "mod_versions": {
+      "26.2": "1.8.0 + 26.1(2) - More Chiseled Bookshelf Variants"
+    }
+  }
+}

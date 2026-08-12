@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "plushie_buddies",
+  "display_name": {
+    "en": "Plushie Buddies"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "990265"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 87.06,
+      "overall": 87.06
+    },
+    "mod_versions": {
+      "1.21": "plushie_buddies-1.0.1-neofroge-1.21.1.jar"
+    }
+  }
+}

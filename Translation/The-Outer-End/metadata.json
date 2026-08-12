@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "outer_end",
+  "display_name": {
+    "en": "The Outer End"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "430404"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 98.84,
+      "overall": 98.84
+    },
+    "mod_versions": {
+      "1.20": "TheOuterEnd-1.0.13.jar"
+    }
+  }
+}

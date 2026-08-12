@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "ancient_obelisks",
+  "display_name": {
+    "en": "Ancient Obelisks"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1186288"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 97.56,
+      "overall": 97.56
+    },
+    "mod_versions": {
+      "1.20": "Ancient-Obelisks-1.20.1-1.2.5.jar"
+    }
+  }
+}

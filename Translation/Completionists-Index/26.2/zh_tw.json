@@ -1,0 +1,9 @@
+{
+  "completionistsindex.gui.index.group.creative": "Creative",
+  "completionistsindex.gui.index.group.mods": "Mods",
+  "completionistsindex.gui.index.sorting.alphabetically": "依字母順序排序",
+  "completionistsindex.gui.index.sorting.collected": "已收集",
+  "completionistsindex.gui.index.sorting.creative": "創造模式",
+  "key.category.completionistsindex.main": "Completionist's Index",
+  "key.completionistsindex.open_index": "Open Index"
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "smallships",
+  "display_name": {
+    "en": "Small Ships [Fabric & Forge]"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "450659"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.4",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 93.14,
+      "overall": 93.14
+    },
+    "mod_versions": {
+      "1.21": "smallships-neoforge-1.21.4-2.0.0-b2.1.jar"
+    }
+  }
+}

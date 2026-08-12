@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "playerplates",
+  "display_name": {
+    "en": "Player Plates (Obsidian Plates)"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "311645"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 55.56,
+      "overall": 55.56
+    },
+    "mod_versions": {
+      "26.1": "PlayerPlates NeoForged 26.1.2.2+mc26.1.2"
+    }
+  }
+}

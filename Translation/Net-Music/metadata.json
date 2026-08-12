@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "netmusic",
+  "display_name": {
+    "en": "Net Music"
+  },
+  "remote": {
+    "primary": "modrinth",
+    "modrinth": "gKNuqaQq"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 41.9,
+      "overall": 41.9
+    },
+    "mod_versions": {
+      "26.1": "1.5.1-neoforge+mc26.1"
+    }
+  }
+}

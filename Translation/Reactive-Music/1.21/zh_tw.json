@@ -1,0 +1,7 @@
+{
+  "reactive_music.config.category.debug": "除錯",
+  "reactive_music.config.category.general": "一般設定",
+  "reactive_music.config.option.debug_mode_enabled": "已啟用除錯模式",
+  "reactive_music.config.option.music_delay": "音樂間歇時間",
+  "reactive_music.title": "韻律回響"
+}

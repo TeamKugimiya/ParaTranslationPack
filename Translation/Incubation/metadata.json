@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "incubation",
+  "display_name": {
+    "en": "Incubation"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "361718"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 76.47,
+      "overall": 76.47
+    },
+    "mod_versions": {
+      "1.21": "Incubation 1.21.1 - 5.0.2"
+    }
+  }
+}

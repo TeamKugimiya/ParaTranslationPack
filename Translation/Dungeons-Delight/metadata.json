@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "dungeonsdelight",
+  "display_name": {
+    "en": "Dungeons Delight"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1258923"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 34.21,
+      "overall": 34.21
+    },
+    "mod_versions": {
+      "1.21": "neoforge-dungeonsdelight-1.21.1-1.5.0.jar"
+    }
+  }
+}

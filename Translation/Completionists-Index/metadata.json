@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "completionistsindex",
+  "display_name": {
+    "en": "Completionist's Index"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "852667"
+  },
+  "contents": {
+    "tiers": {
+      "26.2": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.2": 42.86,
+      "overall": 42.86
+    },
+    "mod_versions": {
+      "26.2": "[NEOFORGE] [26.2.x] v26.2.0"
+    }
+  }
+}

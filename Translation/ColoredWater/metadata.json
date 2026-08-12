@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "colored_water",
+  "display_name": {
+    "en": "ColoredWater"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "534920"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.11",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.21": 14.46,
+      "overall": 14.46
+    },
+    "mod_versions": {
+      "1.21": "Colored Water-neoforge-1.21.11-2.0.0-alpha.5"
+    }
+  }
+}

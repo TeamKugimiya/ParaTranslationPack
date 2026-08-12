@@ -1,0 +1,14 @@
+{
+  "item.telepass.diamond_telepass": "鑽石傳送通行證",
+  "item.telepass.dimension": "§c已連結的玩家§r %s §c目前在其他維度中，傳送已被取消§r",
+  "item.telepass.gold_telepass": "黃金傳送通行證",
+  "item.telepass.offline": "§c已連結的玩家§r %s §c目前是離線狀態，傳送已取消§r",
+  "item.telepass.self": "§c你沒辦法傳送到你自己！§r",
+  "itemGroup.telepass": "傳送通行證",
+  "telepass.configuration.diamondDurability": "Diamond Durability",
+  "telepass.configuration.diamondDurability.tooltip": "Defines the amount of uses the Diamond TelePass has [default: 1000]",
+  "telepass.configuration.general": "General",
+  "telepass.configuration.general.tooltip": "General Settings",
+  "telepass.configuration.goldDurability": "Gold Durability",
+  "telepass.configuration.goldDurability.tooltip": "Defines the amount of uses the Gold TelePass has [default: 15]"
+}

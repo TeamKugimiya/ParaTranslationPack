@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "jearchaeology",
+  "display_name": {
+    "en": "Just Enough Archaeology"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "890755"
+  },
+  "contents": {
+    "tiers": {
+      "26.1": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "26.1.2",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "26.1": 14.74,
+      "overall": 14.74
+    },
+    "mod_versions": {
+      "26.1": "jearchaeology-26.1.2-1.3.0.jar"
+    }
+  }
+}

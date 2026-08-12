@@ -1,0 +1,16 @@
+{
+  "block.redstoneclock.pulse_divider": "脈衝計數器",
+  "block.redstoneclock.redstone_clock": "紅石鐘",
+  "itemGroup.redstoneclock": "紅石鐘",
+  "language": "Tradionnal Chinese",
+  "language.code": "zh_tw",
+  "language.region": "Taiwan",
+  "screen.redstoneclock.pulse_divider.every_pulse": "接收到幾次脈衝後輸出",
+  "screen.redstoneclock.pulse_divider.signal_strength": "輸出訊號強度",
+  "screen.redstoneclock.redstone_clock.active_interval": "輸出時長（刻）",
+  "screen.redstoneclock.redstone_clock.idle_interval": "間隔時長（刻）",
+  "screen.redstoneclock.redstone_clock.multiplier": "乘數：",
+  "screen.redstoneclock.redstone_clock.signal_strength": "訊號強度",
+  "screen.redstoneclock.redstone_clock.tooltip.time": "時間：%s 小時 %s 分鐘 %s 秒 %s 毫秒",
+  "screen.redstoneclock.redstone_clock.tooltip.total_ticks": "總時長（刻）：%s"
+}

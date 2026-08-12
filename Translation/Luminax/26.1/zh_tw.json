@@ -1,0 +1,21 @@
+{
+  "block.luminax.luminax_block": "Luminax Block",
+  "block.luminax.luminax_button": "Luminax Button",
+  "block.luminax.luminax_pressure_plate": "Luminax Pressure Plate",
+  "block.luminax.luminax_slab": "Luminax Slab",
+  "block.luminax.luminax_stair": "Luminax Stair",
+  "block.luminax.luminax_wall": "Luminax Wall",
+  "creative_tab.luminax.default": "Luminax",
+  "item.luminax.luminax_wand": "Luminax Wand",
+  "key.category.luminax.default": "Luminax",
+  "key.luminax.open_color_picker": "Open Color Picker",
+  "key.luminax.toggle_glowing": "Toggle Glowing",
+  "property.luminax.color": "Color",
+  "property.luminax.color.tooltip": "Changes the color of the block",
+  "property.luminax.glowing": "Glowing",
+  "tooltip.luminax.glowing.off": "Makes the block emit light",
+  "tooltip.luminax.glowing.on": "Makes the block emit light",
+  "tooltip.luminax.lmb": "%s or %s to cycle forward",
+  "tooltip.luminax.mmb": "%s to open color picker",
+  "tooltip.luminax.rmb": "%s or %s to cycle backward"
+}
