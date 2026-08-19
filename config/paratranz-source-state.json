@@ -1599,6 +1599,17 @@
     },
     {
       "project_id": 9900,
+      "content_id": "Villager-Golem-Healer",
+      "tier": "1.20",
+      "mod_id": "villagergolemhealer",
+      "file_id": 3336982,
+      "remote_path": "Translation/Villager-Golem-Healer/1.20/villagergolemhealer.json",
+      "source_sha256": "80542f50868eddc4456caf2f0e90e51781a3e7d9499538ee05aa23ede204a8c4",
+      "canonical_source_sha256": "9b5561fa07f0c03c081b0531dcd4740ddf999fdc11eaaf39c0d5ecd54fffe43d",
+      "remote_file_hash": "e0374eb412c910fab575661643d0a0a6"
+    },
+    {
+      "project_id": 9900,
       "content_id": "VillagersPlus-FORGE",
       "tier": "1.20",
       "mod_id": "villagersplus",
