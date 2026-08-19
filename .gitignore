@@ -31,7 +31,6 @@ workdir
 # These files stay local until the reusable workflows are stable. They are not
 # part of the translation-data repository contract.
 /.devcontainer/
-/.github/workflows/
 /.python-version
 /configs/
 /pyproject.toml

@@ -1,0 +1,29 @@
+name: ParaTranz Translation Sync
+
+on:
+  schedule:
+    # 每小時第 20 分鐘先執行 update gate；沒有更新時不產生 artifact、不 pull、不 build。
+    - cron: "20 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  pull-translations:
+    name: Pull translated content
+    if: ${{ github.repository == 'TeamKugimiya/ParaTranslationPack' }}
+    permissions:
+      contents: write
+      pull-requests: write
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/TranslationPack-Paratranz-Pull.yml@v1
+    with:
+      pack_name: ParaTranslationPack
+      detect_updates: true
+      state_path: config/paratranz-sync-state.json
+      generate_artifact: true
+      create_pull_request: true
+      concurrency_group: project-9900
+    secrets:
+      toolkit_token: ${{ secrets.TOOLKIT_TOKEN }}
+      paratranz_token: ${{ secrets.PARATRANZ_TOKEN }}

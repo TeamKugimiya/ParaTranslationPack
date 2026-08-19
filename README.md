@@ -15,7 +15,16 @@
 建構、ParaTranz API client、同步與發布實作不在本庫長期維護，會由固定版本的
 [`translation-toolkit`](https://github.com/TeamKugimiya/translation-toolkit)、
 [`paratranz-toolkit`](https://github.com/TeamKugimiya/paratranz-toolkit) 與 reusable workflows 提供。
-正式自動化啟用時，本庫只會加入呼叫 reusable workflows 的薄型 CI caller。
+本庫只保存呼叫 reusable workflows 的薄型 CI caller；同步與建構實作仍由外部工具 release 提供。
+
+預定同步循環如下：模組原文更新先進 source PR；合併後由 `paratranz-tool` 更新 ParaTranz，
+新模組會自動建立遠端檔案並回寫 identity manifest。譯文同步每小時先做輕量更新偵測，只有
+ParaTranz 有新譯文或尚未套用的 artifact 時才下載、驗證、建構並建立 `zh_tw.json` PR。
+Repository 移除模組時只產生 retained warning，不會自動刪除遠端檔案或既有翻譯。
+
+目前已準備 source sync 與每小時 translation pull caller。Toolkit version 與 ModsTranslationPack
+相同，預設不傳版本並安裝 GitHub latest release，同時驗證 `SHA512SUMS`；需要重現時才固定 tag。
+本階段尚未加入自動發布。
 
 ## 翻譯資料結構
 

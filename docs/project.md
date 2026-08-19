@@ -24,6 +24,7 @@ repository 內容。舊程式與 workflow 已退出版本控制；切換期所�
 | Adapter | `translation-pack-v1` |
 | Project config | `config/paratranz.json` schema 1 |
 | Identity manifest | `config/paratranz-files.json` schema 2 |
+| Pull state | `config/paratranz-sync-state.json` schema 1（首次完整 pull 後建立） |
 | Current files | 157 |
 | Remote path | `Translation/{content_id}/{tier}/{mod_id}.json` |
 | Artifact prefix | `utf8` |
@@ -46,13 +47,23 @@ Manifest 只保存 immutable `mod_id → file_id`，不保存 `content_id`、tie
 ## 同步方向
 
 - Upstream → Git：只更新 `metadata.json` 與 `en_us.json`。
-- Git → ParaTranz：只推送英文原文，現有遠端檔案以 manifest 的 `file_id` 鎖定。
-- ParaTranz → Git：只更新 `zh_tw.json`。
+- Git → ParaTranz：source PR 合併進 `main` 後才推送英文原文；現有遠端檔案以 manifest 的
+  `file_id` 鎖定。新的 current `mod_id` 會建立遠端檔案，並以後續 PR 保存新 mapping。
+- ParaTranz → Git：每小時先比較遠端 `modified_at`、最新 artifact 與 committed pull state；只有
+  `pull_existing` 或 `generate_and_pull` 才下載、套用、建構與建立 `zh_tw.json` PR，`none` 直接結束。
+- Manifest-only mapping 代表 repository 已移除但遠端仍存在的模組；工具只警告並保留 mapping、
+  遠端檔案與譯文。任何 delete／prune 都由維護者人工確認與執行。
 - Git commit 是建構與發布的唯一資料來源；發布時不得即時從 ParaTranz 下載未提交內容。
 - Source-only commit 不觸發正式發布；只有拉回的新譯文進入 Git 後才發布。
 
 ## CI 切換狀態
 
-舊 Beta／Release 與本庫內 reusable workflows 已退出版本控制，目前不執行排程或手動發布。
-正式 schedule、commit、build 與 publish 必須等集中式 reusable workflows 固定版本、最小權限、
-concurrency 與 canary 全部通過後，再以薄型 caller 重新開啟。
+舊 Beta／Release 與本庫內 reusable workflows 已退出版本控制。本庫已加入 source sync 與每小時
+translation pull 的薄型 caller；更新偵測、同步 state、新模組 create／adopt 與保留刪除警告由
+外部工具及 reusable workflow 實作。兩條 caller 共用 `project-9900` concurrency group，避免同一
+ParaTranz project 的讀寫交錯。Toolkit version 預設留空，由集中安裝 action 取得 GitHub latest
+release 並驗證 `SHA512SUMS`；正式成功執行仍需要 repository secrets 設定。
+Caller 依照團隊既有翻譯包慣例引用 `reusable-workflows@v1`；本庫的 `zizmor.yml` 只對這個
+TeamKugimiya 集中 workflow 允許 major-tag ref pin，其他第三方 Action 仍要求完整 commit SHA。
+
+本階段不包含自動發布；ParaTranz pull 建立的翻譯 PR 合併後，只會成為可發布的 canonical Git 資料。

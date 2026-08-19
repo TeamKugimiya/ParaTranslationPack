@@ -1,0 +1,53 @@
+name: ParaTranz Source Sync
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/paratranz-source.yml"
+      - "Translation/**/en_us.json"
+      - "Translation/**/metadata.json"
+      - "config/paratranz.json"
+      - "config/paratranz-files.json"
+  schedule:
+    # GitHub Actions cron 使用 UTC；每週一 18:20 UTC 執行上游來源檢查。
+    - cron: "20 18 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  discover-source-updates:
+    name: Discover source updates
+    if: ${{ github.repository == 'TeamKugimiya/ParaTranslationPack' && github.event_name != 'push' }}
+    permissions:
+      contents: write
+      pull-requests: write
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/TranslationPack-Paratranz-Push.yml@v1
+    with:
+      sync_sources: true
+      apply: false
+      create_pull_request: true
+      concurrency_group: project-9900
+    secrets:
+      toolkit_token: ${{ secrets.TOOLKIT_TOKEN }}
+      paratranz_token: ${{ secrets.PARATRANZ_TOKEN }}
+      curseforge_api_key: ${{ secrets.CURSEFORGE_API_KEY }}
+
+  push-merged-source:
+    name: Push committed source to ParaTranz
+    if: ${{ github.repository == 'TeamKugimiya/ParaTranslationPack' && github.event_name == 'push' }}
+    permissions:
+      contents: write
+      pull-requests: write
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/TranslationPack-Paratranz-Push.yml@v1
+    with:
+      sync_sources: false
+      apply: true
+      # 新 mod create／adopt 會更新 identity manifest，因此仍需建立 automation PR。
+      create_pull_request: true
+      concurrency_group: project-9900
+    secrets:
+      toolkit_token: ${{ secrets.TOOLKIT_TOKEN }}
+      paratranz_token: ${{ secrets.PARATRANZ_TOKEN }}

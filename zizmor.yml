@@ -1,0 +1,7 @@
+# Actions 安全稽核設定。集中式 reusable workflow 以維護中的 v1 major tag 更新；
+# 其他第三方 action 仍沿用 zizmor 預設的完整 commit SHA 政策。
+rules:
+  unpinned-uses:
+    config:
+      policies:
+        TeamKugimiya/reusable-workflows/*: ref-pin
