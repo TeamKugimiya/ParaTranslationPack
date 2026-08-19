@@ -66,4 +66,9 @@ release 並驗證 `SHA512SUMS`；正式成功執行仍需要 repository secrets 
 Caller 依照團隊既有翻譯包慣例引用 `reusable-workflows@v1`；本庫的 `zizmor.yml` 只對這個
 TeamKugimiya 集中 workflow 允許 major-tag ref pin，其他第三方 Action 仍要求完整 commit SHA。
 
+Source sync 已於 2026-08-20 在 project `9900` 首次端到端跑通（`paratranz-tool v0.2.0`、
+`reusable-workflows v1.7.1`）：157 files 全數 unchanged、對 ParaTranz 零次 mutation，並首次建立
+`config/paratranz-source-state.json`。Translation pull 尚未實際執行。詳見
+[`migration.md`](migration.md)。
+
 本階段不包含自動發布；ParaTranz pull 建立的翻譯 PR 合併後，只會成為可發布的 canonical Git 資料。

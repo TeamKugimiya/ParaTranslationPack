@@ -45,15 +45,33 @@
 - 新 current `mod_id` 的 create、逐檔 manifest publish、嚴格 adopt recovery，以及 manifest-only
   retained warning 已由 mock contract、unit 與 built-binary E2E 覆蓋；工具沒有 delete／prune API 路徑。
 
+## 2026-08-20 首次 source sync 實際執行
+
+- Source sync workflow 首次在 project `9900` 端到端跑通。`paratranz-tool v0.2.0`、
+  `reusable-workflows v1.7.1`；dry-run 與 apply 皆 `ok`，push 前後的 `doctor --remote` 皆 `ok`。
+- 結果為 0 mutation：157 files、44,381 keys 全數 unchanged，`remote_changed: false`，
+  0 create、0 adopt、0 path reconciliation、0 update source、0 unknown、0 pending、0 term delete。
+  遠端在此前的 path reconciliation 之後即已收斂，本次沒有對 ParaTranz 寫入任何內容。
+- `state_precondition: "missing"` → `state_status: "published"`：首次建立 source state，
+  並以 bot PR 提交 `config/paratranz-source-state.json`。合併後後續執行才能使用 Terms fast-skip。
+- 在此之前該 workflow 固定失敗於「規劃 ParaTranz source push」：下游 jq gate 沿用了
+  `sync pull-translation` 的 state 詞彙，但 `sync push-source` 的 dry-run 對缺少 state 回報
+  `missing`、對無差異回報 `valid`，兩者都不在 gate 接受的值域內。由於 source state 只能由
+  `--apply` 建立，而 `--apply` 又被失敗的 dry-run gate 擋下，首次執行永遠無法啟動。
+  已由 `paratranz-toolkit SPEC 20`／`v0.2.0`（統一兩個 mode 的詞彙、report schema 升為 8）與
+  `reusable-workflows v1.7.1`（gate 接受 `missing` 並斷言 schema 8）修正。
+- `TOOLKIT_TOKEN` 與 `PARATRANZ_TOKEN` 已由本次執行實證可用；`CURSEFORGE_API_KEY` 尚未驗證，
+  本次 `sync_sources` 為 false，模組來源更新步驟被跳過。
+
 ## 尚未完成的上線閘門
 
-- `paratranz-toolkit v0.1.0` 與 `reusable-workflows v1.6.0` 已發布；將 Para reusable workflows 的
-  toolkit version 預設改為 latest 後，需再發布並更新 `v1` major tag。
-- Source 與每小時 translation thin callers 已加入；設定並驗證 `TOOLKIT_TOKEN`、
-  `PARATRANZ_TOKEN`、`CURSEFORGE_API_KEY`。
+- 驗證 `CURSEFORGE_API_KEY`：需要一次 `sync_sources` 為 true 的執行（schedule 或
+  `workflow_dispatch`）才會實際使用。
 - 確認下一次無更新排程使用已提交的 `config/paratranz-sync-state.json`，並跳過 artifact generation、
   pull、build 與 PR。
 - 以一個測試／新模組完成 production create canary，確認 manifest PR 合併後重跑為 no-op。
+- 完成一次真正有 source 差異的 push：新增 key、更新原文與移除 key 的行為仍未在 project `9900`
+  實測，首次 apply 是 0 mutation。
 - 驗證 source-only 不發布、translation pull PR 合併後才發布，且不會形成 commit／dispatch 迴圈。
 - 完成一次正常發布週期後，將本機忽略的舊 Python scripts、package 設定與遷移 workbench
   移至不可變外部封存或刪除。
