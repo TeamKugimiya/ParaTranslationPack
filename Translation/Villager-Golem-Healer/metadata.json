@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "villagergolemhealer",
+  "display_name": {
+    "en": "Villager Golem Healer",
+    "zh_tw": "村民魔像匠"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1234976"
+  },
+  "contents": {
+    "tiers": {
+      "1.20": {
+        "versions": [
+          "1.20.1"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "translation_progress": {
+      "1.20": 100,
+      "overall": 100
+    },
+    "mod_versions": {
+      "1.20": "villagergolemhealer 1.20.1.jar"
+    }
+  }
+}
